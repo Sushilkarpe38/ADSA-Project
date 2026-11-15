@@ -2,7 +2,7 @@ id,type,category,name,color,location,description,pair_id
 413,LOST,watch,Apple Watch SE,green,Badminton Court,rubber sports band with tiny scratch on glass,207
 889,LOST,wallet,Wildhorn Leather Wallet,grey,Computer Lab,contains college id card and some cash,-1
 424,FOUND,laptop,MacBook Pro 16,green,Main Canteen,slight scratch near touchpad with black neoprene sleeve,212
-284,FOUND,usb drive,SanDisk Ultra Dul Drive 64GB,grey,Computer Lab,black casing with,142
+284,FOUND,usbdrive,SanDisk Ultra Dul Drive 64GB,grey,Computer Lab,black casing with,142
 25,LOST,card,State Bank of India Debit Card,blue,Hostel 2,"silver chip visible, signature on back",13
 3,LOST,phone,Samsung Galaxy S22,blue,Lecture Hall A,black silicone case slightly scratched,2
 418,FOUND,book,Computer Networks Tanenbaum,red,Badminton Court,hardcover edition with brown paper cover,209
@@ -22,14 +22,14 @@ id,type,category,name,color,location,description,pair_id
 174,FOUND,phone,OnePlus 11R,brown,Badminton Court,has tempered glass screen protector with small crack at corner,87
 969,FOUND,book,Operating Systems Principles Galvin,gold,Lecture Hall B,hardcover edition with brown paper cover,-1
 161,LOST,bag,Safari Trek Bag,white,Lecture Hall B,"torn near right strap, yellow reflector stripe",81
-709,LOST,usb drive,HP Metal Pendrive 128GB,brown,Library,black casing with 32gb engraved on front,-1
-637,LOST,laptop,Dell Inspiron 14,matte black,Hostel 1,sticker of GitHub octocat on top lid,319
+709,LOST,usbdrive,HP Metal Pendrive 128GB,brown,Library,black casing with 32gb engraved on front,-1
+637,LOST,laptop,Dell Inspiron 14,matteblack,Hostel 1,sticker of GitHub octocat on top lid,319
 601,LOST,book,Thomas Calculus 14th Edition,blue,Parking Lot,pencil notes written in margins,301
-324,FOUND,card,State Bank of India Debit Card,matte grey,Computer Lab,in a plastic transparent,162
+324,FOUND,card,State Bank of India Debit Card,mattegrey,Computer Lab,in a plastic transparent,162
 444,FOUND,bag,Wildcraft Backpack,grey,Nescafe Kiosk,blue college backpack with water bottle in side mesh,222
-775,FOUND,phone,Motorola Edge 40,matte black,Hostel 1,cracked screen with transparent back cover,-1
+775,FOUND,phone,Motorola Edge 40,matteblack,Hostel 1,cracked screen with transparent back cover,-1
 727,FOUND,phone,Google Pixel 7,brown,Sports Ground,sticker of anime character on the back,-1
-429,LOST,water bottle,Cello Stainless Steel Flask 750ml,black,Badminton Court,metal dent on base with silver cap,215
+429,LOST,waterbottle,Cello Stainless Steel Flask 750ml,black,Badminton Court,metal dent on base with silver cap,215
 432,FOUND,bag,Amerihan Tourister Laptop Bag,red,Lecture Hall B,"torn near right strap, yellow reflector stripe",216
 372,FOUND,book,Computer Networps Tanenbaum,silver,Hostel 1,highlighted pages in chapter 4 with student name Sushil on first page,186
 111,LOST,phone,Redmi Note 12,green,Nescafe Kiosk,white ring holder attached on back case,56
@@ -40,93 +40,92 @@ id,type,category,name,color,location,description,pair_id
 350,FOUND,keys,Honda Activa Key with keychain,brown,Main Gate Bus Stop,ring of three keys,175
 200,FOUND,book,Thomas Calculus 14th Edition,red,Main Canteen,pencil notes written in margins,100
 428,FOUND,laptop,HP Pavilion 15,white,Nescafe Kiosk,slight scratch near touchpad with black neoprene sleeve,214
-4,FOUND,phone,Samsung Galaxy S22,blue,Lecture Hall A,black silicone case slightly scratched,2
 40,FOUND,laptop,Dell XPS 13,white,Lecture Hall A,sticker of GitHub octocat on top lid,20
 360,FOUND,umbrella,Fourseasons Folding Umbrella,brown,Physics Lab,foldable with small tear on umbrella sleeve,180
 953,FOUND,keys,Room 304 Godrej Key,white,Hostel 1,attached with blue marvel keychain,-1
-735,LOST,water bottle,Cello Stainless Steel Flask 750ml,matte black,Lecture Hall B,black matte finish with college club sticker,-1
+735,LOST,waterbottle,Cello Stainless Steel Flask 750ml,matteblack,Lecture Hall B,black matte finish with college club sticker,-1
 509,LOST,keys,Car Key with Honda Logo,brown,Hostel 1,attached with blue marvel keychain,255
-549,LOST,usb drive,SanDisk Cruzer Blade 32GB,green,Hostel 2,black casing with 32gb engraved on front,275
+549,LOST,usbdrive,SanDisk Cruzer Blade 32GB,green,Hostel 2,black casing with 32gb engraved on front,275
 130,FOUND,umbrella,Duck Handle Compact Umbrella,white,Computer Lab,wooden curved handle,65
 371,LOST,book,Computer Networks Tanenbaum,silver,Hostel 1,highlighted pages in chapter 4 with student name Sushil on first page,186
 18,FOUND,phone,Redmi Note 12,black,Hostel 1,sticker of anime character on the back,9
-89,LOST,water bottle,Milton Thermosteel Bottle 1L,grey,Badminton Court,black matte finish with college club sticker,45
+89,LOST,waterbottle,Milton Thermosteel Bottle 1L,grey,Badminton Court,black matte finish with college club sticker,45
 91,LOST,bag,Nike Sports Duffel Bag,green,Hostel 2,"torn near right strap, yellow reflector stripe",46
 866,LOST,laptop,Acer Aspire 5,brown,Lecture Hall A,slight scratch near touchpad with black neoprene sleeve,-1
 326,FOUND,bag,Nike Sports Duffl Bag,red,Library,contains spiral notebooks,163
-668,FOUND,usb drive,HP Metl Pendrive 128GB,red,Computer Lab,black casing with 32gb engraved on front,334
-901,FOUND,water bottle,Cello Stainless Steel Flask 750ml,red,Nescafe Kiosk,metal dent on base with silver cap,-1
+668,FOUND,usbdrive,HP Metl Pendrive 128GB,red,Computer Lab,black casing with 32gb engraved on front,334
+901,FOUND,waterbottle,Cello Stainless Steel Flask 750ml,red,Nescafe Kiosk,metal dent on base with silver cap,-1
 151,LOST,earphones,Sony WF-1000XM4,black,Library,inside black pouch with charging cable,76
-90,FOUND,water bottle,Milton Thermosteel Bottle 1L,grey,Badminton Court,black matte finish with college club sticker,45
+90,FOUND,waterbottle,Milton Thermosteel Bottle 1L,grey,Badminton Court,black matte finish with college club sticker,45
 112,FOUND,phone,Redmi Note 12,green,Parking Lot,white ring holder attached on back case,56
 933,LOST,wallet,Hidesign Leather Purse,gold,Nescafe Kiosk,black leather slightly worn out at corners,-1
 782,LOST,umbrella,Sun Brand Large Black Umbrella,green,Nescafe Kiosk,foldable with small tear on umbrella sleeve,-1
-617,LOST,water bottle,Cello Stainless Steel Flask 750ml,brown,Main Canteen,blue sipper cap with measurement markings,309
-672,FOUND,water bottle,Tupperware Sports Sipper,dark,Library,metal dent on base with silver cap,336
-48,FOUND,water bottle,Milton Thermosteel Bottle 1L,blue,Parking Lot,metal dent on base with silver cap,24
+617,LOST,waterbottle,Cello Stainless Steel Flask 750ml,brown,Main Canteen,blue sipper cap with measurement markings,309
+672,FOUND,waterbottle,Tupperware Sports Sipper,dark,Library,metal dent on base with silver cap,336
+48,FOUND,waterbottle,Milton Thermosteel Bottle 1L,blue,Parking Lot,metal dent on base with silver cap,24
 393,LOST,phone,iPhone 13 Pro,green,Badminton Court,has tempered glass screen protector with small crack at corner,197
 328,FOUND,laptop,Acer Aspire 5,silver,Physics Lab,sticker of GitHub,164
 436,FOUND,wallet,Wildhorn Leather Wallet,black,Lecture Hall B,brown bi-fold with photo inside transparent slot,218
 738,FOUND,laptop,MacBook Pro 16,silver,Physics Lab,sticker of GitHub octocat on top lid,-1
-342,FOUND,usb drive,HP Metal Pendrive 128GB,silver,Library,black casing with 32gb engraved on front,171
+342,FOUND,usbdrive,HP Metal Pendrive 128GB,silver,Library,black casing with 32gb engraved on front,171
 416,FOUND,earphones,JBL Wave 200,white,Badminton Court,"left earbud has small scratch, black case",208
-814,LOST,water bottle,Cello Stainless Steel Flask 750ml,brown,Sports Ground,metal dent on base with silver cap,-1
-368,FOUND,water bottle,Tupperware Sports Sipper,blue,Badminton Court,blue sipper cap with measurement markings,184
+814,LOST,waterbottle,Cello Stainless Steel Flask 750ml,brown,Sports Ground,metal dent on base with silver cap,-1
+368,FOUND,waterbottle,Tupperware Sports Sipper,blue,Badminton Court,blue sipper cap with measurement markings,184
 764,LOST,book,CLRS Introduction to Algorithms,red,Lecture Hall B,pencil notes written in margins,-1
 677,LOST,watch,Casio Vintage Digital Watch,blue,Hostel 1,rubber sports band with tiny scratch on glass,339
-362,FOUND,water bottle,Tupperware Sports Sipper,white,Computer Lab,metal dent on base with silver cap,181
+362,FOUND,waterbottle,Tupperware Sports Sipper,white,Computer Lab,metal dent on base with silver cap,181
 526,FOUND,watch,Noise ColorFit Pro,silver,Hostel 1,rubber sports band with,263
-842,FOUND,usb drive,HP Metal Pendrive 128GB,gold,Hostel 2,small red slider cap attached to metal key ring,-1
+842,FOUND,usbdrive,HP Metal Pendrive 128GB,gold,Hostel 2,small red slider cap attached to metal key ring,-1
 681,LOST,book,CLRS Introduction to Algorithms,green,Hostel 2,hardcover edition with brown paper cover,341
 984,FOUND,book,CLRS Introduction to Algorithms,brown,Main Gate Bus Stop,hardcover edition with brown paper cover,-1
 145,LOST,card,Metro Smart Travel Card,green,Main Gate Bus Stop,"silver chip visible, signature on back",73
 744,FOUND,wallet,Tommy Hilfiger Bi-fold Wallet,grey,Sports Ground,brown bi-fold with photo inside transparent slot,-1
-516,FOUND,bag,Skyrags College Bag,matte matte black,Sports Ground,contains spiral notebooks,258
+516,FOUND,bag,Skyrags College Bag,mattematteblack,Sports Ground,contains spiral notebooks,258
 348,FOUND,phone,iPhone 14,grey,Computer Lab,sticker of anime character on the back,174
 602,FOUND,book,Thomas Calculus 14th Edition,blue,Parking Lot,pencil notes written in margins,301
 401,LOST,keys,Apartment Main Door Key Bunch,red,Parking Lot,attached with blue marvel keychain,201
 771,LOST,wallet,Wildhorn Leather Wallet,brown,Physics Lab,brown bi-fold with photo inside transparent slot,-1
 503,LOST,book,Database System Concepts Silberschatz,black,Library,pencil notes written in margins,252
-600,FOUND,usb drive,HP Metal Pendrive 128GB,red,Parking Lot,black casing with,300
+600,FOUND,usbdrive,HP Metal Pendrive 128GB,red,Parking Lot,black casing with,300
 240,FOUND,keys,Honda Activa Key with keychin,silver,Parking Lot,bike key with rubber grip and silver bottle opener,120
 259,LOST,laptop,MacBook Air M2,green,Computer Lab,transparent plastic protective shell,130
-19,LOST,water bottle,Borosil Hydra Stainless Bottle,green,Hostel 2,black matte finish with college club sticker,10
-893,FOUND,usb drive,Kingston DataTraveler 64GB,matte black,Hostel 1,black casing with 32gb engraved on front,-1
+19,LOST,waterbottle,Borosil Hydra Stainless Bottle,green,Hostel 2,black matte finish with college club sticker,10
+893,FOUND,usbdrive,Kingston DataTraveler 64GB,matteblack,Hostel 1,black casing with 32gb engraved on front,-1
 924,LOST,umbrella,Duck Handle Compact Umbrella,gold,Lecture Hall B,"automatic push button handle, dark blue cloth",-1
 27,LOST,earphones,Realme Buds Air 3,black,Main Gate Bus Stop,inside black pouch with charging cable,14
-72,FOUND,earphones,JBL Wave 200,matte black,Main Canteen,inside black pouch with charging cable,36
+72,FOUND,earphones,JBL Wave 200,matteblack,Main Canteen,inside black pouch with charging cable,36
 994,FOUND,watch,Apple Watch SE,silver,Library,black strap with magnetic charger clip,-1
 607,LOST,watch,Apple Watch SE,silver,Hostel 2,silver dial with leather strap slightly faded,304
-587,LOST,usb drive,Kingston DataTraveler 64GB,grey,Library,black casing with 32gb engraved on front,294
+587,LOST,usbdrive,Kingston DataTraveler 64GB,grey,Library,black casing with 32gb engraved on front,294
 265,LOST,laptop,Acer Aspire 5,gold,Main Canteen,sticker of GitHub octocat on top lid,133
 266,FOUND,laptop,Acer Aspire 5,gold,Main Canteen,sticker of GitHub octocat on top lid,133
 296,FOUND,book,Database System Concepts Silberschatz,black,Computer Lab,hardcover edition with brown paper cover,148
-501,LOST,usb drive,Kingston DataTraveler 64GB,black,Lecture Hall A,black casing with 32gb engraved on front,251
-77,LOST,usb drive,HP Metal Pendrive 128GB,green,Parking Lot,small red slider cap attached to metal key ring,39
+501,LOST,usbdrive,Kingston DataTraveler 64GB,black,Lecture Hall A,black casing with 32gb engraved on front,251
+77,LOST,usbdrive,HP Metal Pendrive 128GB,green,Parking Lot,small red slider cap attached to metal key ring,39
 797,FOUND,umbrella,Duck Handle Compact Umbrella,silver,Nescafe Kiosk,"automatic push button handle, dark blue cloth",-1
 858,LOST,watch,Casio Vintage Digital Watch,gold,Lecture Hall B,black strap with magnetic charger clip,-1
 673,LOST,watch,Fossil Gen 6 Hybrid Smartwatch,black,Hostel 2,silver dial with leather strap slightly faded,337
-910,FOUND,water bottle,Borosil Hydra Stainless Bottle,red,Hostel 1,blue sipper cap with measurement markings,-1
+910,FOUND,waterbottle,Borosil Hydra Stainless Bottle,red,Hostel 1,blue sipper cap with measurement markings,-1
 535,LOST,card,College Student ID Card,green,Physics Lab,in a plastic transparent badge holder with blue lanyard,268
 911,LOST,card,Metro Smart Travel Card,green,Lecture Hall A,"silver chip visible, signature on back",-1
-951,FOUND,water bottle,Borosil Hydra Stainless Bottle,green,Hostel 1,metal dent on base with silver cap,-1
-213,LOST,usb drive,HP Metal Pendrive 128GB,brown,Lecture Hall B,small red slider cap attached to metal key ring,107
+951,FOUND,waterbottle,Borosil Hydra Stainless Bottle,green,Hostel 1,metal dent on base with silver cap,-1
+213,LOST,usbdrive,HP Metal Pendrive 128GB,brown,Lecture Hall B,small red slider cap attached to metal key ring,107
 627,LOST,keys,Honda Activa Key with keychain,green,Hostel 1,ring of three keys with red ribbon tag,314
-967,LOST,laptop,Dell Inspiron 14,matte black,Library,sticker of GitHub octocat on top lid,-1
-491,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,red,Lecture Hall A,black casing with 32gb engraved on front,246
-589,LOST,bag,Skybags College Bag,matte black,Main Gate Bus Stop,contains spiral notebooks and pencil pouch,295
+967,LOST,laptop,Dell Inspiron 14,matteblack,Library,sticker of GitHub octocat on top lid,-1
+491,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,red,Lecture Hall A,black casing with 32gb engraved on front,246
+589,LOST,bag,Skybags College Bag,matteblack,Main Gate Bus Stop,contains spiral notebooks and pencil pouch,295
 128,FOUND,umbrella,Fourseasons Folding Umbrella,grey,Hostel 1,wooden curved handle,64
-234,FOUND,water bottle,Milton Thermosteel Bottle 1L,brown,Hostel 1,black matte finish,117
+234,FOUND,waterbottle,Milton Thermosteel Bottle 1L,brown,Hostel 1,black matte finish,117
 943,FOUND,card,Library Access Card,black,Physics Lab,has passport size photo of student,-1
 122,FOUND,wallet,Titan Formal Walet,,Computer Lab,black leather slightly,61
-574,FOUND,water bottle,Tupperware Sports Sipper,matte black,Hostel 1,metal dent on,287
+574,FOUND,waterbottle,Tupperware Sports Sipper,matteblack,Hostel 1,metal dent on,287
 236,FOUND,book,Operating Systems Principles Galvin,red,Computer Lab,pencil notes,118
 59,LOST,laptop,Dell XPS 13,brown,Hostel 1,sticker of GitHub octocat on top lid,30
-2,FOUND,water bottle,Milton Thvrmosteel Bottle 1L,black,Main Gate Bus Stop,black matte finish with college club sticker,1
+2,FOUND,waterbottle,Milton Thvrmosteel Bottle 1L,black,Main Gate Bus Stop,black matte finish with college club sticker,1
 670,FOUND,watch,Titan Fastrack Smartwatch,gold,Main Canteen,black strap with,335
 813,FOUND,earphones,JBL Wave 200,green,Parking Lot,"left earbud has small scratch, black case",-1
 218,FOUND,umbrella,Duck Handle Compact Umbrella,brown,Lecture Hall B,"automatic push button handle, dark blue cloth",109
-588,FOUND,usb drive,Kingston DataTraveler 64GB,dark,Library,black casing with 32gb engraved on front,294
+588,FOUND,usbdrive,Kingston DataTraveler 64GB,dark,Library,black casing with 32gb engraved on front,294
 971,FOUND,card,State Bank of India Debit Card,gold,Main Canteen,has passport size photo of student,-1
 34,FOUND,card,College Student ID Card,silver,Hostel 2,has passport size photo of student,17
 920,LOST,phone,OnePlus 11R,grey,Physics Lab,white ring holder attached on back case,-1
@@ -141,69 +140,69 @@ id,type,category,name,color,location,description,pair_id
 38,FOUND,book,CLRS Introduction to Algorithms,white,Lecture Hall A,highlighted pages in chapter 4 with,19
 309,LOST,earphones,OnePlus Nord Buds,gold,Computer Lab,inside black pouch with charging cable,155
 876,LOST,wallet,Titan Formal Wallet,green,Sports Ground,brown bi-fold with photo inside transparent slot,-1
-86,FOUND,usb drive,HP Metal Pendrive 128GB,green,Hostel 1,small red slider cap attached to metal key ring,43
+86,FOUND,usbdrive,HP Metal Pendrive 128GB,green,Hostel 1,small red slider cap attached to metal key ring,43
 643,LOST,card,State Bank of India Debit Card,grey,Main Gate Bus Stop,"silver chip visible, signature on back",322
 363,LOST,wallet,Tommy Hilfiger Bi-fold Wallet,brown,Lecture Hall A,brown bi-fold with photo inside transparent slot,182
 765,FOUND,wallet,Tommy Hilfiger Bi-fold Wallet,grey,Lecture Hall A,contains college id card and some cash,-1
-965,LOST,usb drive,Kingston DataTraveler 64GB,grey,Lecture Hall A,small red slider cap attached to metal key ring,-1
+965,LOST,usbdrive,Kingston DataTraveler 64GB,grey,Lecture Hall A,small red slider cap attached to metal key ring,-1
 938,FOUND,bag,Nike Sports Duffel Bag,gold,Parking Lot,"torn near right strap, yellow reflector stripe",-1
 275,LOST,watch,Casio Vintage Digital Watch,white,Parking Lot,rubber sports band with tiny scratch on glass,138
 841,FOUND,wallet,Titan Formal Wallet,silver,Physics Lab,black leather slightly worn out at corners,-1
-560,FOUND,usb drive,Kingston DataTraveler 64GB,red,Lecture Hall B,black casing with 32gb engraved on front,280
+560,FOUND,usbdrive,Kingston DataTraveler 64GB,red,Lecture Hall B,black casing with 32gb engraved on front,280
 322,FOUND,card,HDFC Credt Card,silver,Lecture Hall A,"silver chip visible,",161
-867,LOST,water bottle,Tupperware Sports Sipper,green,Parking Lot,metal dent on base with silver cap,-1
+867,LOST,waterbottle,Tupperware Sports Sipper,green,Parking Lot,metal dent on base with silver cap,-1
 523,LOST,watch,Casio Vintage Digital Watch,black,Hostel 2,silver dial with leather strap slightly faded,262
 414,FOUND,watch,Apple Watch SE,green,Badminton Court,rubber sports band with,207
-30,FOUND,water bottle,Ttpperware Sports Sipper,matte gold,Hostel 1,metal dent on base with silver cap,15
-629,LOST,laptop,Dell XPS 13,matte black,Computer Lab,sticker of GitHub octocat on top lid,315
-477,LOST,water bottle,Borosil Hydra Stainless Bottle,gold,Main Canteen,blue sipper cap with measurement markings,239
+30,FOUND,waterbottle,Ttpperware Sports Sipper,mattegold,Hostel 1,metal dent on base with silver cap,15
+629,LOST,laptop,Dell XPS 13,matteblack,Computer Lab,sticker of GitHub octocat on top lid,315
+477,LOST,waterbottle,Borosil Hydra Stainless Bottle,gold,Main Canteen,blue sipper cap with measurement markings,239
 642,FOUND,earphones,Sony WF-1000XM4,silver,Library,"left earbud has small scratch, black case",321
-623,LOST,water bottle,Tupperware Sports Sipper,white,Badminton Court,blue sipper cap with measurement markings,312
-699,LOST,usb drive,Kingston DataTraveler 64GB,red,Library,small red slider cap attached to metal key ring,350
-473,LOST,water bottle,Tupperware Sports Sipper,white,Lecture Hall B,metal dent on base with silver cap,237
+623,LOST,waterbottle,Tupperware Sports Sipper,white,Badminton Court,blue sipper cap with measurement markings,312
+699,LOST,usbdrive,Kingston DataTraveler 64GB,red,Library,small red slider cap attached to metal key ring,350
+473,LOST,waterbottle,Tupperware Sports Sipper,white,Lecture Hall B,metal dent on base with silver cap,237
 852,LOST,watch,Noise ColorFit Pro,green,Parking Lot,rubber sports band with tiny scratch on glass,-1
 685,LOST,watch,Apple Watch SE,green,Lecture Hall A,rubber sports band with tiny scratch on glass,343
 518,FOUND,bag,Puma Casual Backpack,silver,Parking Lot,"torn near right strap, yellow reflector stripe",259
-291,LOST,water bottle,Borosil Hydra Stainless Bottle,brown,Parking Lot,blue sipper cap with measurement markings,146
+291,LOST,waterbottle,Borosil Hydra Stainless Bottle,brown,Parking Lot,blue sipper cap with measurement markings,146
 415,LOST,earphones,JBL Wave 200,white,Badminton Court,"left earbud has small scratch, black case",208
 729,LOST,laptop,Acer Aspire 5,gold,Nescafe Kiosk,slight scratch near touchpad with black neoprene sleeve,-1
-463,LOST,water bottle,Cello Stainless Steel Flask 750ml,red,Computer Lab,metal dent on base with silver cap,232
+463,LOST,waterbottle,Cello Stainless Steel Flask 750ml,red,Computer Lab,metal dent on base with silver cap,232
 847,LOST,phone,Samsung Galaxy A54,silver,Library,cracked screen with transparent back cover,-1
-315,LOST,earphones,Noise Buds VS102,matte black,Parking Lot,white charging case with red silicone cover,158
+315,LOST,earphones,Noise Buds VS102,matteblack,Parking Lot,white charging case with red silicone cover,158
 225,LOST,bag,Safari Trek Bag,green,Parking Lot,"torn near right strap, yellow reflector stripe",113
-301,LOST,usb drive,SanDisk Cruzer Blade 32GB,gold,Hostel 2,small red slider cap attached to metal key ring,151
+301,LOST,usbdrive,SanDisk Cruzer Blade 32GB,gold,Hostel 2,small red slider cap attached to metal key ring,151
 1000,LOST,phone,iPhone 14,red,Sports Ground,has tempered glass screen protector with small crack at corner,-1
 603,LOST,keys,Room 304 Godrej Key,red,Badminton Court,bike key with rubber grip and silver bottle opener,302
-47,LOST,water bottle,Milton Thermosteel Bottle 1L,blue,Parking Lot,metal dent on base with silver cap,24
-29,LOST,water bottle,Tupperware Sports Sipper,gold,Hostel 1,metal dent on base with silver cap,15
+47,LOST,waterbottle,Milton Thermosteel Bottle 1L,blue,Parking Lot,metal dent on base with silver cap,24
+29,LOST,waterbottle,Tupperware Sports Sipper,gold,Hostel 1,metal dent on base with silver cap,15
 754,FOUND,umbrella,Duck Handle Compact Umbrella,red,Main Canteen,"automatic push button handle, dark blue cloth",-1
 24,FOUND,earphones,Noise Buds VS102,green,Hostel 1,white charging case with red silicone cover,12
-229,LOST,card,Metro Smart Travel Card,matte black,Lecture Hall A,"silver chip visible, signature on back",115
-483,LOST,usb drive,Kingston DataTraveler 64GB,black,Lecture Hall B,black casing with 32gb engraved on front,242
+229,LOST,card,Metro Smart Travel Card,matteblack,Lecture Hall A,"silver chip visible, signature on back",115
+483,LOST,usbdrive,Kingston DataTraveler 64GB,black,Lecture Hall B,black casing with 32gb engraved on front,242
 507,LOST,card,College Student ID Card,white,Lecture Hall A,"silver chip visible, signature on back",254
 776,FOUND,bag,Puma Casual Backpack,blue,Hostel 2,contains spiral notebooks and pencil pouch,-1
 201,LOST,watch,Casio Vintage Digital Watch,brown,Badminton Court,black strap with magnetic charger clip,101
-271,LOST,usb drive,Kingston DataTraveler 64GB,green,Nescafe Kiosk,black casing with 32gb engraved on front,136
+271,LOST,usbdrive,Kingston DataTraveler 64GB,green,Nescafe Kiosk,black casing with 32gb engraved on front,136
 277,LOST,wallet,Wildhorn Leather Wallet,white,Nescafe Kiosk,brown bi-fold with photo inside transparent slot,139
-793,LOST,water bottle,Milton Thermosteel Bottle 1L,black,Library,blue sipper cap with measurement markings,-1
-439,LOST,water bottle,Tupperware Sports Sipper,silver,Library,blue sipper cap with measurement markings,220
+793,LOST,waterbottle,Milton Thermosteel Bottle 1L,black,Library,blue sipper cap with measurement markings,-1
+439,LOST,waterbottle,Tupperware Sports Sipper,silver,Library,blue sipper cap with measurement markings,220
 930,FOUND,card,HDFC Credit Card,red,Library,"silver chip visible, signature on back",-1
 803,FOUND,earphones,Boat Airdopes 141,gold,Computer Lab,inside black pouch with charging cable,-1
-640,FOUND,usb drive,Kingston DataTraveler 64GB,black,Physics Lab,black casing with 32gb engraved on front,320
+640,FOUND,usbdrive,Kingston DataTraveler 64GB,black,Physics Lab,black casing with 32gb engraved on front,320
 840,FOUND,watch,Fossil Gen 6 Hybrid Smartwatch,white,Lecture Hall B,silver dial with leather strap slightly faded,-1
-551,LOST,laptop,Dell Inspiron 14,matte black,Sports Ground,contains college sticker and developer stickers,276
+551,LOST,laptop,Dell Inspiron 14,matteblack,Sports Ground,contains college sticker and developer stickers,276
 206,FOUND,phone,iPhone 14,black,Badminton Court,sticker of anime character on the back,103
 912,FOUND,keys,Room 304 Godrej Key,brown,Parking Lot,ring of three keys with red ribbon tag,-1
 983,LOST,watch,Titan Fastrack Smartwatch,silver,Library,black strap with magnetic charger clip,-1
 49,LOST,earphones,Realme Buds Air 3,black,Nescafe Kiosk,"left earbud has small scratch, black case",25
-888,LOST,laptop,Lenovo ThinkPad X1,matte black,Library,contains college sticker and developer stickers,-1
+888,LOST,laptop,Lenovo ThinkPad X1,matteblack,Library,contains college sticker and developer stickers,-1
 447,LOST,wallet,Wildhorn Leather Wallet,grey,Main Canteen,brown bi-fold with photo inside transparent slot,224
 688,FOUND,phone,Samsung Galaxy A54,red,Sports Ground,white ring holder attached on back case,344
 208,FOUND,earphones,Apple AirPods Pro,silver,Computer Lab,inside black pouch with charging cable,104
-905,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,red,Library,small red slider cap attached to metal key ring,-1
+905,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,red,Library,small red slider cap attached to metal key ring,-1
 143,LOST,phone,iPhone 13 Pro,grey,Lecture Hall A,has tempered glass screen protector with small crack at corner,72
-801,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,red,Lecture Hall A,small red slider cap attached to metal key ring,-1
-440,FOUND,water bottle,Tupperware Sports Sipper,silver,Library,blue sipper cap,220
+801,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,red,Lecture Hall A,small red slider cap attached to metal key ring,-1
+440,FOUND,waterbottle,Tupperware Sports Sipper,silver,Library,blue sipper cap,220
 620,FOUND,laptop,Lenovo ThinkPad X1,blue,Hostel 1,contains college sticker,310
 981,LOST,watch,Noise ColorFit Pro,silver,Hostel 2,rubber sports band with tiny scratch on glass,-1
 417,LOST,book,Computer Networks Tanenbaum,red,Badminton Court,hardcover edition with brown paper cover,209
@@ -219,7 +218,7 @@ id,type,category,name,color,location,description,pair_id
 471,LOST,phone,OnePlus 11R,gold,Lecture Hall B,black silicone case slightly scratched,236
 854,LOST,umbrella,Sun Brand Large Black Umbrella,white,Hostel 2,wooden curved handle with wrist strap,-1
 741,FOUND,phone,OnePlus 11R,grey,Nescafe Kiosk,black silicone case slightly scratched,-1
-153,LOST,laptop,Dell XPS 13,matte black,Lecture Hall B,contains college sticker and developer stickers,77
+153,LOST,laptop,Dell XPS 13,matteblack,Lecture Hall B,contains college sticker and developer stickers,77
 147,LOST,laptop,HP Pavilion 15,red,Computer Lab,slight scratch near touchpad with black neoprene sleeve,74
 690,FOUND,wallet,Woodland Men Brwn Wallet,black,Main Canteen,brown bi-fold with photo inside transparent slot,345
 359,LOST,umbrella,Fourseasons Folding Umbrella,brown,Main Canteen,foldable with small tear on umbrella sleeve,180
@@ -232,17 +231,17 @@ id,type,category,name,color,location,description,pair_id
 304,FOUND,keys,Apartment Main Door Key Bunch,black,Computer Lab,bike key with rubber grip and silver bottle opener,152
 960,LOST,keys,Car Key with Honda Logo,red,Badminton Court,bike key with rubber grip and silver bottle opener,-1
 608,FOUND,watch,Apple Wath SE,,Hostel 2,silver dial with leather strap slightly faded,304
-961,LOST,usb drive,HP Metal Pendrive 128GB,white,Lecture Hall B,small red slider cap attached to metal key ring,-1
-674,FOUND,watch,Fossil Gen 6 Hybrid Smartwatch,matte black,Hostel 2,silver dial with leather strap slightly faded,337
+961,LOST,usbdrive,HP Metal Pendrive 128GB,white,Lecture Hall B,small red slider cap attached to metal key ring,-1
+674,FOUND,watch,Fossil Gen 6 Hybrid Smartwatch,matteblack,Hostel 2,silver dial with leather strap slightly faded,337
 64,FOUND,phone,Realme 10 Pro,grey,Computer Lab,cracked screen with transparent back cover,32
 522,FOUND,keys,Hero Splendor Bike Key,blue,Nescafe Kiosk,attached with blue marvel keychain,261
-118,FOUND,earphones,JBL Wave 200,matte gold,Library,left earbud has,59
+118,FOUND,earphones,JBL Wave 200,mattegold,Library,left earbud has,59
 244,FOUND,laptop,Dell XPS 13,silver,Library,transparent plastic,122
 264,FOUND,wallet,Hidesign Leather Purse,grey,Main Canteen,contains college id,132
 619,LOST,laptop,Lenovo ThinkPad X1,blue,Hostel 1,contains college sticker and developer stickers,310
-802,LOST,water bottle,Milton Thermosteel Bottle 1L,blue,Hostel 1,blue sipper cap with measurement markings,-1
+802,LOST,waterbottle,Milton Thermosteel Bottle 1L,blue,Hostel 1,blue sipper cap with measurement markings,-1
 691,LOST,earphones,Boat Airdopes 141,white,Hostel 2,white charging case with red silicone cover,346
-883,FOUND,water bottle,Cello Stainless Steel Flask 750ml,grey,Hostel 2,blue sipper cap with measurement markings,-1
+883,FOUND,waterbottle,Cello Stainless Steel Flask 750ml,grey,Hostel 2,blue sipper cap with measurement markings,-1
 113,LOST,keys,Room 304 Godrej Key,green,Nescafe Kiosk,bike key with rubber grip and silver bottle opener,57
 274,FOUND,umbrella,Dick Handle Compact Umbrella,blue,Library,"automatic push button handle, dark blue cloth",137
 238,FOUND,wallet,Woodland Men Brown Wallet,blue,Sports Ground,contains college id,119
@@ -253,76 +252,76 @@ id,type,category,name,color,location,description,pair_id
 527,LOST,laptop,MacBook Air M2,grey,Physics Lab,contains college sticker and developer stickers,264
 253,LOST,umbrella,Duck Handle Compact Umbrella,grey,Sports Ground,wooden curved handle with wrist strap,127
 786,FOUND,earphones,Boat Airdopes 141,green,Badminton Court,inside black pouch with charging cable,-1
-895,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,grey,Main Canteen,small red slider cap attached to metal key ring,-1
+895,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,grey,Main Canteen,small red slider cap attached to metal key ring,-1
 684,FOUND,umbrella,Duck Handle Compact Umbrella,white,Hostel 2,foldable with small,342
 586,FOUND,laptop,Asus ZenBook 14,gold,Main Canteen,sticker of GitHub octocat on top lid,293
-743,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,grey,Main Canteen,small red slider cap attached to metal key ring,-1
+743,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,grey,Main Canteen,small red slider cap attached to metal key ring,-1
 435,LOST,wallet,Wildhorn Leather Wallet,black,Lecture Hall B,brown bi-fold with photo inside transparent slot,218
 210,FOUND,earphones,Apple AirPods Pro,brown,Hostel 2,"left earbud has small scratch, black case",105
 669,LOST,watch,Titan Fastrack Smartwatch,gold,Main Canteen,black strap with magnetic charger clip,335
 337,LOST,card,Library Access Card,gold,Parking Lot,"silver chip visible, signature on back",169
 794,LOST,watch,Noise ColorFit Pro,green,Computer Lab,rubber sports band with tiny scratch on glass,-1
 84,FOUND,keys,Hero Splendor Bike Key,,Lecture Hall B,attached with blue marvel keychain,42
-458,FOUND,wallet,Wildhorn Leather Wallet,matte green,Lecture Hall B,contains college id card and some cash,229
+458,FOUND,wallet,Wildhorn Leather Wallet,mattegreen,Lecture Hall B,contains college id card and some cash,229
 243,LOST,laptop,Dell XPS 13,silver,Library,transparent plastic protective shell,122
-252,FOUND,laptop,Acer Aspire 5,matte black,Physics Lab,sticker of GitHub octocat on top lid,126
-341,LOST,usb drive,HP Metal Pendrive 128GB,silver,Library,black casing with 32gb engraved on front,171
+252,FOUND,laptop,Acer Aspire 5,matteblack,Physics Lab,sticker of GitHub octocat on top lid,126
+341,LOST,usbdrive,HP Metal Pendrive 128GB,silver,Library,black casing with 32gb engraved on front,171
 928,LOST,card,Library Access Card,blue,Computer Lab,has passport size photo of student,-1
 747,LOST,book,Operating Systems Principles Galvin,green,Main Gate Bus Stop,hardcover edition with brown paper cover,-1
-241,LOST,earphones,Noise Buds VS102,matte black,Library,"left earbud has small scratch, black case",121
+241,LOST,earphones,Noise Buds VS102,matteblack,Library,"left earbud has small scratch, black case",121
 258,FOUND,keys,Car Key with Honda Logo,red,Hostel 2,ring of three keys,129
-680,FOUND,water bottle,Borosil Hydra Stainless Botle,silver,Computer Lab,black matte finish with college club sticker,340
-701,FOUND,usb drive,SanDisk Ultra Dual Drive 64GB,matte black,Computer Lab,black casing with 32gb engraved on front,-1
+680,FOUND,waterbottle,Borosil Hydra Stainless Botle,silver,Computer Lab,black matte finish with college club sticker,340
+701,FOUND,usbdrive,SanDisk Ultra Dual Drive 64GB,matteblack,Computer Lab,black casing with 32gb engraved on front,-1
 739,LOST,umbrella,Fourseasons Folding Umbrella,grey,Badminton Court,foldable with small tear on umbrella sleeve,-1
 626,FOUND,bag,Nike Sports Duffel Bag,green,Computer Lab,blue college bag with water bottle in side mesh,313
 723,FOUND,bag,Wildcraft Backpack,black,Lecture Hall A,blue college bag with water bottle in side mesh,-1
-885,LOST,phone,Motorola Edge 40,matte black,Nescafe Kiosk,white ring holder attached on back case,-1
-980,LOST,usb drive,Kingston DataTraveler 64GB,brown,Parking Lot,small red slider cap attached to metal key ring,-1
+885,LOST,phone,Motorola Edge 40,matteblack,Nescafe Kiosk,white ring holder attached on back case,-1
+980,LOST,usbdrive,Kingston DataTraveler 64GB,brown,Parking Lot,small red slider cap attached to metal key ring,-1
 985,FOUND,keys,Room 304 Godrej Key,gold,Badminton Court,ring of three keys with red ribbon tag,-1
 486,FOUND,umbrella,Duck Handle Cmopact Umbrella,gold,Lecture Hall A,foldable with small tear on umbrella sleeve,243
 978,LOST,umbrella,Duck Handle Compact Umbrella,white,Computer Lab,wooden curved handle with wrist strap,-1
 520,FOUND,umbrella,Sun Brand Large Black Umbrella,gold,Main Gate Bus Stop,foldable with small tear on umbrella sleeve,260
-462,FOUND,water bottle,Borosil Hydra Stainless Bottle,red,Nescafe Kiosk,black matte finish with college club sticker,231
-55,LOST,laptop,HP Pavilion 15,matte black,Hostel 1,sticker of GitHub octocat on top lid,28
-624,FOUND,water bottle,Tupperware Sports Sipper,white,Badminton Court,blue sipper cap,312
+462,FOUND,waterbottle,Borosil Hydra Stainless Bottle,red,Nescafe Kiosk,black matte finish with college club sticker,231
+55,LOST,laptop,HP Pavilion 15,matteblack,Hostel 1,sticker of GitHub octocat on top lid,28
+624,FOUND,waterbottle,Tupperware Sports Sipper,white,Badminton Court,blue sipper cap,312
 694,FOUND,bag,Puma Casual Backpakc,,Main Canteen,blue college bag with water bottle in side mesh,347
 141,LOST,bag,Safari Trek Bag,green,Sports Ground,"torn near right strap, yellow reflector stripe",71
-590,FOUND,bag,Skybags College Bag,matte black,Main Gate Bus Stop,contains spiral notebooks and pencil pouch,295
-878,LOST,card,State Bank of India Debit Card,matte black,Computer Lab,"silver chip visible, signature on back",-1
+590,FOUND,bag,Skybags College Bag,matteblack,Main Gate Bus Stop,contains spiral notebooks and pencil pouch,295
+878,LOST,card,State Bank of India Debit Card,matteblack,Computer Lab,"silver chip visible, signature on back",-1
 211,LOST,wallet,Hidesign Leather Purse,silver,Computer Lab,black leather slightly worn out at corners,106
 476,FOUND,card,Library Access Card,silver,Hostel 2,"silver chip visible, signature on back",238
 164,FOUND,book,Thomas Calculus 14th Edition,black,Lecture Hall A,hardcover edition with brown paper cover,82
 386,FOUND,laptop,Dell XPS 13,silver,Sports Ground,contains college sticker and developer stickers,193
-469,LOST,water bottle,Milton Thermosteel Bottle 1L,white,Main Gate Bus Stop,metal dent on base with silver cap,235
+469,LOST,waterbottle,Milton Thermosteel Bottle 1L,white,Main Gate Bus Stop,metal dent on base with silver cap,235
 734,LOST,phone,Samsung Galaxy A54,blue,Hostel 2,has tempered glass screen protector with small crack at corner,-1
-558,FOUND,watch,Niose ColorFit Pro,matte black,Main Gate Bus Stop,rubber sports band with,279
+558,FOUND,watch,Niose ColorFit Pro,matteblack,Main Gate Bus Stop,rubber sports band with,279
 61,LOST,keys,Room 304 Godrej Key,silver,Sports Ground,bike key with rubber grip and silver bottle opener,31
-650,FOUND,usb drive,SanDisk Ultra Dual Drive 64GB,white,Main Canteen,small red slider cap,325
+650,FOUND,usbdrive,SanDisk Ultra Dual Drive 64GB,white,Main Canteen,small red slider cap,325
 286,FOUND,laptop,HP Pavilion 15,green,Hostel 1,contains college sticker and developer stickers,143
 390,FOUND,wallet,Titan Formhl Wallet,white,Physics Lab,contains college id card and some cash,195
 809,LOST,keys,Room 304 Godrej Key,silver,Computer Lab,ring of three keys with red ribbon tag,-1
 355,LOST,umbrella,Sun Brand Large Black Umbrella,grey,Hostel 2,"automatic push button handle, dark blue cloth",178
 689,LOST,wallet,Woodland Men Brown Wallet,black,Main Canteen,brown bi-fold with photo inside transparent slot,345
 525,LOST,watch,Noise ColorFit Pro,silver,Hostel 2,rubber sports band with tiny scratch on glass,263
-484,FOUND,usb drive,Kingston DataTraveler 64GB,black,Lecture Hall B,black casing with,242
+484,FOUND,usbdrive,Kingston DataTraveler 64GB,black,Lecture Hall B,black casing with,242
 666,FOUND,phone,Samsung Galaxy A54,silver,Lecture Hall A,sticker of anime character on the back,333
 490,FOUND,book,Computer Networks Tanenbaum,red,Lecture Hall B,hardcover edition with brown paper cover,245
-571,LOST,water bottle,Tupperware Sports Sipper,matte black,Nescafe Kiosk,blue sipper cap with measurement markings,286
-700,FOUND,usb drive,Kingston DataTraveler 6GB,red,Library,small red slider cap attached to metal key ring,350
-704,FOUND,bag,Safari Trek Bag,matte black,Physics Lab,contains spiral notebooks and pencil pouch,-1
+571,LOST,waterbottle,Tupperware Sports Sipper,matteblack,Nescafe Kiosk,blue sipper cap with measurement markings,286
+700,FOUND,usbdrive,Kingston DataTraveler 6GB,red,Library,small red slider cap attached to metal key ring,350
+704,FOUND,bag,Safari Trek Bag,matteblack,Physics Lab,contains spiral notebooks and pencil pouch,-1
 396,FOUND,book,Copmuter Networks Tanenbaum,brown,Lecture Hall B,pencil notes written in margins,198
 298,FOUND,book,Computer Networks Tanenbaum,gold,Parking Lot,pencil notes written in margins,149
-380,FOUND,water bottle,Tupperware Sports Sipper,matte black,Badminton Court,metal dent on,190
+380,FOUND,waterbottle,Tupperware Sports Sipper,matteblack,Badminton Court,metal dent on,190
 106,FOUND,card,HDFC Credit Card,silver,Main Gate Bus Stop,has passport size photo of student,53
 68,FOUND,book,Thomas Calculus 14th Edition,dark,Computer Lab,pencil notes written in margins,34
 278,FOUND,wallet,Widlhorn Leather Wallet,white,Nescafe Kiosk,brown bi-fold with photo inside transparent slot,139
 230,FOUND,card,Metro Smart Travel Caud,dark,Lecture Hall A,"silver chip visible, signature on back",115
 169,LOST,book,Thomas Calculus 14th Edition,green,Lecture Hall B,pencil notes written in margins,85
-582,FOUND,water bottle,Borosil Hydra Stainless Bottle,green,Library,black matte finish,291
-566,FOUND,water bottle,Cello Stainless Steel Flask 750ml,silver,Hostel 1,blue sipper cap with measurement markings,283
-219,LOST,water bottle,Cello Stainless Steel Flask 750ml,blue,Hostel 2,blue sipper cap with measurement markings,110
+582,FOUND,waterbottle,Borosil Hydra Stainless Bottle,green,Library,black matte finish,291
+566,FOUND,waterbottle,Cello Stainless Steel Flask 750ml,silver,Hostel 1,blue sipper cap with measurement markings,283
+219,LOST,waterbottle,Cello Stainless Steel Flask 750ml,blue,Hostel 2,blue sipper cap with measurement markings,110
 79,LOST,bag,Skybags College Bag,brown,Main Canteen,contains spiral notebooks and pencil pouch,40
-952,LOST,usb drive,SanDisk Cruzer Blade 32GB,blue,Badminton Court,black casing with 32gb engraved on front,-1
+952,LOST,usbdrive,SanDisk Cruzer Blade 32GB,blue,Badminton Court,black casing with 32gb engraved on front,-1
 540,FOUND,umbrella,Fourseasons Folding Umbrella,brown,Computer Lab,"automatic push button handle, dark blue cloth",270
 977,FOUND,keys,Car Key with Honda Logo,grey,Sports Ground,attached with blue marvel keychain,-1
 117,LOST,earphones,JBL Wave 200,gold,Library,"left earbud has small scratch, black case",59
@@ -330,16 +329,16 @@ id,type,category,name,color,location,description,pair_id
 314,FOUND,card,Library Access Card,black,Hostel 2,has passport size,157
 963,FOUND,keys,Room 304 Godrej Key,white,Hostel 1,ring of three keys with red ribbon tag,-1
 196,FOUND,watch,Apple Watch SE,brown,Library,black strap with magnetic charger clip,98
-679,LOST,water bottle,Borosil Hydra Stainless Bottle,silver,Computer Lab,black matte finish with college club sticker,340
-757,LOST,water bottle,Cello Stainless Steel Flask 750ml,white,Lecture Hall B,blue sipper cap with measurement markings,-1
+679,LOST,waterbottle,Borosil Hydra Stainless Bottle,silver,Computer Lab,black matte finish with college club sticker,340
+757,LOST,waterbottle,Cello Stainless Steel Flask 750ml,white,Lecture Hall B,blue sipper cap with measurement markings,-1
 411,LOST,umbrella,Sun Brand Large Black Umbrella,silver,Hostel 2,"automatic push button handle, dark blue cloth",206
 175,LOST,book,CLRS Introduction to Algorithms,brown,Main Canteen,hardcover edition with brown paper cover,88
-78,FOUND,usb drive,HP Metal Pendrive 128GB,dark,Parking Lot,small red slider cap attached to metal key ring,39
+78,FOUND,usbdrive,HP Metal Pendrive 128GB,dark,Parking Lot,small red slider cap attached to metal key ring,39
 792,LOST,watch,Casio Vintage Digital Watch,gold,Hostel 1,black strap with magnetic charger clip,-1
 144,FOUND,phone,iPhone 13 Pro,grey,Lecture Hall A,has tempered glass screen protector with small crack at corner,72
 285,LOST,laptop,HP Pavilion 15,green,Hostel 1,contains college sticker and developer stickers,143
 831,LOST,keys,Room 304 Godrej Key,grey,Badminton Court,bike key with rubber grip and silver bottle opener,-1
-707,LOST,water bottle,Milton Thermosteel Bottle 1L,brown,Physics Lab,black matte finish with college club sticker,-1
+707,LOST,waterbottle,Milton Thermosteel Bottle 1L,brown,Physics Lab,black matte finish with college club sticker,-1
 132,FOUND,umbrella,Fourseasons Folding Umbrella,red,Hostel 2,foldable with small tear on umbrella sleeve,66
 349,LOST,keys,Honda Activa Key with keychain,brown,Main Gate Bus Stop,ring of three keys with red ribbon tag,175
 32,FOUND,wallet,Woodland Men Brown Wallet,black,Sports Ground,brown bi-fold with photo inside transparent slot,16
@@ -348,25 +347,25 @@ id,type,category,name,color,location,description,pair_id
 121,LOST,wallet,Titan Formal Wallet,grey,Computer Lab,black leather slightly worn out at corners,61
 863,LOST,watch,Fossil Gen 6 Hybrid Smartwatch,gold,Nescafe Kiosk,black strap with magnetic charger clip,-1
 321,LOST,card,HDFC Credit Card,silver,Lecture Hall A,"silver chip visible, signature on back",161
-989,FOUND,laptop,MacBook Pro 16,matte black,Lecture Hall B,contains college sticker and developer stickers,-1
+989,FOUND,laptop,MacBook Pro 16,matteblack,Lecture Hall B,contains college sticker and developer stickers,-1
 181,LOST,keys,Apartment Main Door Key Bunch,brown,Hostel 2,ring of three keys with red ribbon tag,91
 451,LOST,card,HDFC Credit Card,gold,Main Gate Bus Stop,has passport size photo of student,226
 697,LOST,earphones,Realme Buds Air 3,black,Computer Lab,white charging case with red silicone cover,349
-382,FOUND,water bottle,Tupperware Sports Sipuer,matte black,Library,metal dent on base with silver cap,191
+382,FOUND,waterbottle,Tupperware Sports Sipuer,matteblack,Library,metal dent on base with silver cap,191
 546,FOUND,bag,American Tourister Laptop Bag,green,Lecture Hall B,contains spiral notebooks and pencil pouch,273
 202,FOUND,watch,Casio Vintage Digital Watch,brown,Badminton Court,black strap with magnetic charger clip,101
-251,LOST,laptop,Acer Aspire 5,matte black,Physics Lab,sticker of GitHub octocat on top lid,126
+251,LOST,laptop,Acer Aspire 5,matteblack,Physics Lab,sticker of GitHub octocat on top lid,126
 616,FOUND,wallet,Woodland Men Brown Wallet,,Parking Lot,contains college id,308
-430,FOUND,water bottle,Cello Stainless Steel Flask 750ml,black,Badminton Court,metal dent on base with silver cap,215
-594,FOUND,wallet,Tommy Hilfiger Bi-fold Wallet,matte matte black,Lecture Hall B,brown bi-fold with photo inside transparent slot,297
+430,FOUND,waterbottle,Cello Stainless Steel Flask 750ml,black,Badminton Court,metal dent on base with silver cap,215
+594,FOUND,wallet,Tommy Hilfiger Bi-fold Wallet,mattematteblack,Lecture Hall B,brown bi-fold with photo inside transparent slot,297
 944,LOST,laptop,Lenovo ThinkPad X1,brown,Hostel 1,contains college sticker and developer stickers,-1
 21,LOST,umbrella,Sun Brand Large Black Umbrella,red,Lecture Hall A,"automatic push button handle, dark blue cloth",11
-618,FOUND,water bottle,Cello Stainelss Steel Flask 750ml,brown,Main Canteen,blue sipper cap,309
+618,FOUND,waterbottle,Cello Stainelss Steel Flask 750ml,brown,Main Canteen,blue sipper cap,309
 800,FOUND,wallet,Woodland Men Brown Wallet,black,Badminton Court,black leather slightly worn out at corners,-1
 235,LOST,book,Operating Systems Principles Galvin,red,Computer Lab,pencil notes written in margins,118
 508,FOUND,card,College Student ID Card,white,Lecture Hall A,"silver chip visible, signature on back",254
 499,LOST,phone,Realme 10 Pro,black,Computer Lab,cracked screen with transparent back cover,250
-96,FOUND,water bottle,Celol Stainless Steel Flask 750ml,gold,Sports Ground,blue sipper cap,48
+96,FOUND,waterbottle,Celol Stainless Steel Flask 750ml,gold,Sports Ground,blue sipper cap,48
 479,LOST,bag,Skybags College Bag,grey,Main Gate Bus Stop,blue college bag with water bottle in side mesh,240
 644,FOUND,card,State Bank of India Debit Card,grey,Main Gate Bus Stop,"silver chip visible,",322
 798,LOST,wallet,Wildhorn Leather Wallet,blue,Sports Ground,contains college id card and some cash,-1
@@ -374,10 +373,10 @@ id,type,category,name,color,location,description,pair_id
 610,FOUND,earphones,Boat Airdopes 141,green,Hostel 2,left earbud has,305
 513,LOST,laptop,Dell Inspiron 14,green,Hostel 2,transparent plastic protective shell,257
 364,FOUND,wallet,Tommy Hilfiger Bi-fold Wallet,brown,Lecture Hall A,brown bi-fold with,182
-593,LOST,wallet,Tommy Hilfiger Bi-fold Wallet,matte black,Lecture Hall B,brown bi-fold with photo inside transparent slot,297
+593,LOST,wallet,Tommy Hilfiger Bi-fold Wallet,matteblack,Lecture Hall B,brown bi-fold with photo inside transparent slot,297
 631,LOST,wallet,Hidesign Leather Purse,green,Nescafe Kiosk,brown bi-fold with photo inside transparent slot,316
 119,LOST,book,Operating Systems Principles Galvin,black,Lecture Hall B,hardcover edition with brown paper cover,60
-630,FOUND,laptop,Dell XPS 13,matte black,Library,sticker of GitHub octocat on top lid,315
+630,FOUND,laptop,Dell XPS 13,matteblack,Library,sticker of GitHub octocat on top lid,315
 998,LOST,laptop,MacBook Pro 16,grey,Lecture Hall A,slight scratch near touchpad with black neoprene sleeve,-1
 845,LOST,keys,Apartment Main Door Key Bunch,brown,Hostel 1,bike key with rubber grip and silver bottle opener,-1
 408,FOUND,keys,Hero Splendor Bike Key,green,Hostel 1,ring of three keys,204
@@ -402,11 +401,11 @@ id,type,category,name,color,location,description,pair_id
 88,FOUND,phone,Realme 10 Pro,gold,Hostel 2,black silicone case slightly scratched,44
 131,LOST,umbrella,Fourseasons Folding Umbrella,red,Badminton Court,foldable with small tear on umbrella sleeve,66
 455,LOST,card,HDFC Credit Card,black,Sports Ground,in a plastic transparent badge holder with blue lanyard,228
-830,FOUND,usb drive,SanDisk Ultra Dual Drive 64GB,blue,Computer Lab,small red slider cap attached to metal key ring,-1
+830,FOUND,usbdrive,SanDisk Ultra Dual Drive 64GB,blue,Computer Lab,small red slider cap attached to metal key ring,-1
 340,FOUND,keys,Room 304 Godrej Key,black,Main Canteen,attached with blue marvel keychain,170
 299,LOST,keys,Apartment Main Door Key Bunch,brown,Badminton Court,attached with blue marvel keychain,150
 881,FOUND,watch,Noise ColorFit Pro,black,Sports Ground,black strap with magnetic charger clip,-1
-780,FOUND,water bottle,Milton Thermosteel Bottle 1L,black,Sports Ground,black matte finish with college club sticker,-1
+780,FOUND,waterbottle,Milton Thermosteel Bottle 1L,black,Sports Ground,black matte finish with college club sticker,-1
 884,FOUND,phone,Realme 10 Pro,gold,Physics Lab,cracked screen with transparent back cover,-1
 505,LOST,wallet,Wildhorn Leather Wallet,gold,Main Gate Bus Stop,brown bi-fold with photo inside transparent slot,253
 914,LOST,card,Metro Smart Travel Card,white,Physics Lab,in a plastic transparent badge holder with blue lanyard,-1
@@ -414,13 +413,13 @@ id,type,category,name,color,location,description,pair_id
 374,FOUND,laptop,Lenovo ThinkPad X1,red,Hostel 2,sticker of GitHub octocat on top lid,187
 319,LOST,book,Operating Systems Principles Galvin,red,Hostel 2,pencil notes written in margins,160
 248,FOUND,laptop,Dell Inspiron 14,gold,Lecture Hall A,sticker of GitHub octocat on top lid,124
-281,LOST,water bottle,Tupperware Sports Sipper,blue,Nescafe Kiosk,blue sipper cap with measurement markings,141
+281,LOST,waterbottle,Tupperware Sports Sipper,blue,Nescafe Kiosk,blue sipper cap with measurement markings,141
 678,FOUND,watch,Casio Vintage Digital Watch,dark,Hostel 1,rubber sports band with,339
 595,LOST,wallet,Woodland Men Brown Wallet,silver,Lecture Hall A,contains college id card and some cash,298
 268,FOUND,umbrella,Duck Handle Compact Umbrella,gold,Library,wooden curved handle,134
 280,FOUND,laptop,Dell XPS 13,brown,Main Gate Bus Stop,contains college sticker and developer stickers,140
 873,LOST,bag,Puma Casual Backpack,green,Hostel 2,blue college bag with water bottle in side mesh,-1
-622,FOUND,water bottle,Milton Thermosteel Bottle 1L,white,Badminton Court,blue sipper cap with measurement markings,311
+622,FOUND,waterbottle,Milton Thermosteel Bottle 1L,white,Badminton Court,blue sipper cap with measurement markings,311
 871,LOST,earphones,Noise Buds VS102,gold,Badminton Court,white charging case with red silicone cover,-1
 521,LOST,keys,Hero Splendor Bike Key,blue,Nescafe Kiosk,attached with blue marvel keychain,261
 108,FOUND,card,HDFC Creit Card,white,Lecture Hall B,has passport size,54
@@ -433,7 +432,7 @@ id,type,category,name,color,location,description,pair_id
 460,FOUND,card,State Bank of India Debit Card,,Sports Ground,in a plastic transparent badge holder with blue lanyard,230
 748,FOUND,phone,Realme 10 Pro,silver,Computer Lab,sticker of anime character on the back,-1
 176,FOUND,book,CLRS Introduction to Algorithms,brown,Main Canteen,hardcover edition with brown paper cover,88
-934,LOST,phone,Samsung Galaxy S22,matte black,Badminton Court,cracked screen with transparent back cover,-1
+934,LOST,phone,Samsung Galaxy S22,matteblack,Badminton Court,cracked screen with transparent back cover,-1
 148,FOUND,laptop,HP Pavilion 15,red,Computer Lab,slight scratch near touchpad with black neoprene sleeve,74
 687,LOST,phone,Samsung Galaxy A54,red,Sports Ground,white ring holder attached on back case,344
 541,LOST,keys,Car Key with Honda Logo,red,Nescafe Kiosk,bike key with rubber grip and silver bottle opener,271
@@ -441,15 +440,15 @@ id,type,category,name,color,location,description,pair_id
 975,FOUND,bag,American Tourister Laptop Bag,brown,Hostel 1,contains spiral notebooks and pencil pouch,-1
 514,FOUND,laptop,Dell Inspiron 14,,Hostel 2,transparent plastic protective shell,257
 28,FOUND,earphones,Realme Buds Air 3,black,Main Gate Bus Stop,inside black pouch with charging cable,14
-379,LOST,water bottle,Tupperware Sports Sipper,matte black,Badminton Court,metal dent on base with silver cap,190
-478,FOUND,water bottle,Borosil Hydra Stainless Bottle,gold,Nescafe Kiosk,blue sipper cap with measurement markings,239
+379,LOST,waterbottle,Tupperware Sports Sipper,matteblack,Badminton Court,metal dent on base with silver cap,190
+478,FOUND,waterbottle,Borosil Hydra Stainless Bottle,gold,Nescafe Kiosk,blue sipper cap with measurement markings,239
 693,LOST,bag,Puma Casual Backpack,green,Main Canteen,blue college bag with water bottle in side mesh,347
-437,LOST,water bottle,Borosil Hydra Stainless Bottle,silver,Badminton Court,black matte finish with college club sticker,219
+437,LOST,waterbottle,Borosil Hydra Stainless Bottle,silver,Badminton Court,black matte finish with college club sticker,219
 766,LOST,phone,Motorola Edge 40,green,Hostel 2,sticker of anime character on the back,-1
 918,LOST,bag,Wildcraft Backpack,silver,Hostel 1,"torn near right strap, yellow reflector stripe",-1
-713,FOUND,laptop,Dell Inspiron 14,matte black,Hostel 2,slight scratch near touchpad with black neoprene sleeve,-1
+713,FOUND,laptop,Dell Inspiron 14,matteblack,Hostel 2,slight scratch near touchpad with black neoprene sleeve,-1
 728,LOST,wallet,Hidesign Leather Purse,black,Physics Lab,brown bi-fold with photo inside transparent slot,-1
-838,FOUND,card,College Student ID Card,matte black,Physics Lab,"silver chip visible, signature on back",-1
+838,FOUND,card,College Student ID Card,matteblack,Physics Lab,"silver chip visible, signature on back",-1
 103,LOST,card,Library Access Card,red,Parking Lot,has passport size photo of student,52
 120,FOUND,book,Operating Systems Principles Galvin,black,Lecture Hall B,hardcover edition with brown paper cover,60
 419,LOST,wallet,Hidesign Leather Purse,brown,Lecture Hall A,contains college id card and some cash,210
@@ -460,16 +459,16 @@ id,type,category,name,color,location,description,pair_id
 529,LOST,laptop,MacBook Air M2,black,Lecture Hall B,contains college sticker and developer stickers,265
 613,LOST,watch,Apple Watch SE,brown,Computer Lab,black strap with magnetic charger clip,307
 421,LOST,wallet,Woodland Men Brown Wallet,brown,Main Canteen,black leather slightly worn out at corners,211
-492,FOUND,usb drive,SanDisk Ultra Dual Drive 64GB,red,Lecture Hall A,black casing with,246
+492,FOUND,usbdrive,SanDisk Ultra Dual Drive 64GB,red,Lecture Hall A,black casing with,246
 180,FOUND,keys,Hero Splendor Bike Key,green,Badminton Court,attached with,90
 87,LOST,phone,Realme 10 Pro,gold,Hostel 2,black silicone case slightly scratched,44
 528,FOUND,laptop,MacBook Air M2,grey,Physics Lab,contains college sticker and developer stickers,264
-808,FOUND,keys,Car Key with Honda Logo,matte black,Lecture Hall B,bike key with rubber grip and silver bottle opener,-1
-833,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,blue,Lecture Hall B,small red slider cap attached to metal key ring,-1
-336,FOUND,phone,Motorola Edge 40,matte red,Lecture Hall A,white ring holder,168
+808,FOUND,keys,Car Key with Honda Logo,matteblack,Lecture Hall B,bike key with rubber grip and silver bottle opener,-1
+833,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,blue,Lecture Hall B,small red slider cap attached to metal key ring,-1
+336,FOUND,phone,Motorola Edge 40,mattered,Lecture Hall A,white ring holder,168
 305,LOST,wallet,Hidesign Leather Purse,silver,Main Canteen,contains college id card and some cash,153
-177,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,grey,Hostel 2,black casing with 32gb engraved on front,89
-720,FOUND,water bottle,Tupperware Sports Sipper,grey,Lecture Hall A,metal dent on base with silver cap,-1
+177,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,grey,Hostel 2,black casing with 32gb engraved on front,89
+720,FOUND,waterbottle,Tupperware Sports Sipper,grey,Lecture Hall A,metal dent on base with silver cap,-1
 824,FOUND,laptop,Dell Inspiron 14,brown,Main Canteen,sticker of GitHub octocat on top lid,-1
 179,LOST,keys,Hero Splendor Bike Key,green,Badminton Court,attached with blue marvel keychain,90
 188,FOUND,card,Metro Samrt Travel Card,green,Sports Ground,has passport size photo of student,94
@@ -479,62 +478,62 @@ id,type,category,name,color,location,description,pair_id
 887,LOST,earphones,Apple AirPods Pro,white,Hostel 1,"left earbud has small scratch, black case",-1
 46,FOUND,book,Operating Systems Principles Galvin,,Physics Lab,hardcover edition with,23
 295,LOST,book,Database System Concepts Silberschatz,black,Library,hardcover edition with brown paper cover,148
-474,FOUND,water bottle,Tupperware Sports Sipper,white,Lecture Hall B,metal dent on base with silver cap,237
+474,FOUND,waterbottle,Tupperware Sports Sipper,white,Lecture Hall B,metal dent on base with silver cap,237
 859,LOST,umbrella,Sun Brand Large Black Umbrella,black,Main Canteen,foldable with small tear on umbrella sleeve,-1
 166,FOUND,wallet,Hidesign Leather Purse,white,Nescafe Kiosk,contains college id card and some cash,83
 221,LOST,watch,Apple Watch SE,white,Physics Lab,rubber sports band with tiny scratch on glass,111
-667,LOST,usb drive,HP Metal Pendrive 128GB,red,Sports Ground,black casing with 32gb engraved on front,334
+667,LOST,usbdrive,HP Metal Pendrive 128GB,red,Sports Ground,black casing with 32gb engraved on front,334
 137,LOST,keys,Honda Activa Key with keychain,blue,Lecture Hall B,ring of three keys with red ribbon tag,69
 37,LOST,book,CLRS Introduction to Algorithms,white,Lecture Hall A,highlighted pages in chapter 4 with student name Sushil on first page,19
-832,FOUND,usb drive,SanDisk Cruzer Blade 32GB,black,Physics Lab,black casing with 32gb engraved on front,-1
+832,FOUND,usbdrive,SanDisk Cruzer Blade 32GB,black,Physics Lab,black casing with 32gb engraved on front,-1
 127,LOST,umbrella,Fourseasons Folding Umbrella,grey,Hostel 1,wooden curved handle with wrist strap,64
-269,LOST,usb drive,HP Metal Pendrive 128GB,red,Main Canteen,small red slider cap attached to metal key ring,135
+269,LOST,usbdrive,HP Metal Pendrive 128GB,red,Main Canteen,small red slider cap attached to metal key ring,135
 377,LOST,wallet,Woodland Men Brown Wallet,silver,Main Canteen,brown bi-fold with photo inside transparent slot,189
 966,LOST,bag,Puma Casual Backpack,red,Physics Lab,blue college bag with water bottle in side mesh,-1
 288,FOUND,keys,Honda Activa Key with keyhain,blue,Badminton Court,bike key with rubber grip and silver bottle opener,144
 101,LOST,bag,Skybags College Bag,gold,Sports Ground,blue college bag with water bottle in side mesh,51
-293,LOST,water bottle,Tupperware Sports Sipper,red,Physics Lab,black matte finish with college club sticker,147
-334,FOUND,laptop,Dell Inspiron 14,matte black,Badminton Court,sticker of GitHub octocat on top lid,167
+293,LOST,waterbottle,Tupperware Sports Sipper,red,Physics Lab,black matte finish with college club sticker,147
+334,FOUND,laptop,Dell Inspiron 14,matteblack,Badminton Court,sticker of GitHub octocat on top lid,167
 203,LOST,bag,Safari Trek Bag,blue,Nescafe Kiosk,blue college bag with water bottle in side mesh,102
-250,FOUND,water bottle,Milton Thermosteel Bottle 1L,black,Main Gate Bus Stop,black matte finish,125
-671,LOST,water bottle,Tupperware Sports Sipper,matte black,Library,metal dent on base with silver cap,336
+250,FOUND,waterbottle,Milton Thermosteel Bottle 1L,black,Main Gate Bus Stop,black matte finish,125
+671,LOST,waterbottle,Tupperware Sports Sipper,matteblack,Library,metal dent on base with silver cap,336
 287,LOST,keys,Honda Activa Key with keychain,blue,Badminton Court,bike key with rubber grip and silver bottle opener,144
 784,FOUND,phone,iPhone 14,gold,Lecture Hall A,cracked screen with transparent back cover,-1
 70,FOUND,wallet,Woodland Men Brown Wallet,brown,Computer Lab,brown bi-fold with photo inside transparent slot,35
 609,LOST,earphones,Boat Airdopes 141,green,Hostel 2,"left earbud has small scratch, black case",305
 67,LOST,book,Thomas Calculus 14th Edition,black,Computer Lab,pencil notes written in margins,34
-358,FOUND,earphones,Noie Buds VS102,matte black,Hostel 2,"left earbud has small scratch, black case",179
+358,FOUND,earphones,Noie Buds VS102,matteblack,Hostel 2,"left earbud has small scratch, black case",179
 696,FOUND,umbrella,Duck Handle Compact Umbrella,silver,Hostel 1,"automatic push button handle, dark blue cloth",348
 955,FOUND,card,State Bank of India Debit Card,gold,Computer Lab,"silver chip visible, signature on back",-1
 740,FOUND,wallet,Titan Formal Wallet,brown,Hostel 1,brown bi-fold with photo inside transparent slot,-1
 205,LOST,phone,iPhone 14,black,Lecture Hall B,sticker of anime character on the back,103
 779,LOST,laptop,Dell Inspiron 14,red,Hostel 2,slight scratch near touchpad with black neoprene sleeve,-1
-135,LOST,card,Metro Smart Travel Card,matte black,Parking Lot,"silver chip visible, signature on back",68
-409,LOST,book,Thomas Calculus 14th Edition,matte black,Hostel 1,highlighted pages in chapter 4 with student name Sushil on first page,205
+135,LOST,card,Metro Smart Travel Card,matteblack,Parking Lot,"silver chip visible, signature on back",68
+409,LOST,book,Thomas Calculus 14th Edition,matteblack,Hostel 1,highlighted pages in chapter 4 with student name Sushil on first page,205
 749,FOUND,earphones,Noise Buds VS102,gold,Hostel 1,white charging case with red silicone cover,-1
-488,FOUND,usb drive,SanDisk Ultra Dual Drive 64GB,white,Main Gate Bus Stop,small red slider cap attached to metal key ring,244
-85,LOST,usb drive,HP Metal Pendrive 128GB,green,Hostel 1,small red slider cap attached to metal key ring,43
+488,FOUND,usbdrive,SanDisk Ultra Dual Drive 64GB,white,Main Gate Bus Stop,small red slider cap attached to metal key ring,244
+85,LOST,usbdrive,HP Metal Pendrive 128GB,green,Hostel 1,small red slider cap attached to metal key ring,43
 345,LOST,keys,Room 304 Godrej Key,gold,Nescafe Kiosk,bike key with rubber grip and silver bottle opener,173
-136,FOUND,card,Metro Smart Travel Card,matte black,Parking Lot,"silver chip visible, signature on back",68
+136,FOUND,card,Metro Smart Travel Card,matteblack,Parking Lot,"silver chip visible, signature on back",68
 152,FOUND,earphones,Sony WF-1000XM4,black,Library,inside black pouch with charging cable,76
 404,FOUND,card,HDFC Credit Crad,silver,Hostel 1,"silver chip visible, signature on back",202
-891,LOST,laptop,Asus ZenBook 14,matte black,Computer Lab,slight scratch near touchpad with black neoprene sleeve,-1
+891,LOST,laptop,Asus ZenBook 14,matteblack,Computer Lab,slight scratch near touchpad with black neoprene sleeve,-1
 443,LOST,bag,Wildcraft Backpack,grey,Nescafe Kiosk,blue college bag with water bottle in side mesh,222
 579,LOST,keys,Hero Splendor Bike Key,brown,Physics Lab,attached with blue marvel keychain,290
 864,FOUND,bag,Skybags College Bag,red,Main Canteen,contains spiral notebooks and pencil pouch,-1
-937,FOUND,umbrella,Sun Brand Large Black Umbrella,matte black,Lecture Hall B,wooden curved handle with wrist strap,-1
+937,FOUND,umbrella,Sun Brand Large Black Umbrella,matteblack,Lecture Hall B,wooden curved handle with wrist strap,-1
 457,LOST,wallet,Wildhorn Leather Wallet,green,Lecture Hall B,contains college id card and some cash,229
 403,LOST,card,HDFC Credit Card,silver,Hostel 1,"silver chip visible, signature on back",202
-52,FOUND,usb drive,SanDibk Ultra Dual Drive 64GB,,Lecture Hall A,black casing with 32gb engraved on front,26
+52,FOUND,usbdrive,SanDibk Ultra Dual Drive 64GB,,Lecture Hall A,black casing with 32gb engraved on front,26
 157,LOST,bag,Wildcraft Backpack,gold,Parking Lot,contains spiral notebooks and pencil pouch,79
-659,LOST,water bottle,Borosil Hydra Stainless Bottle,grey,Computer Lab,metal dent on base with silver cap,330
-515,LOST,bag,Skybags College Bag,matte black,Sports Ground,contains spiral notebooks and pencil pouch,258
+659,LOST,waterbottle,Borosil Hydra Stainless Bottle,grey,Computer Lab,metal dent on base with silver cap,330
+515,LOST,bag,Skybags College Bag,matteblack,Sports Ground,contains spiral notebooks and pencil pouch,258
 335,LOST,phone,Motorola Edge 40,red,Lecture Hall A,white ring holder attached on back case,168
-154,FOUND,laptop,Dell XPS 13,matte black,Lecture Hall B,contains college sticker and developer stickers,77
+154,FOUND,laptop,Dell XPS 13,matteblack,Lecture Hall B,contains college sticker and developer stickers,77
 327,LOST,laptop,Acer Aspire 5,silver,Physics Lab,sticker of GitHub octocat on top lid,164
 43,LOST,book,CLRS Introduction to Algorithms,blue,Library,hardcover edition with brown paper cover,22
 313,LOST,card,Library Access Card,black,Hostel 2,has passport size photo of student,157
-56,FOUND,laptop,HP Pavilion 15,matte black,Hostel 1,sticker of GitHub octocat on top lid,28
+56,FOUND,laptop,HP Pavilion 15,matteblack,Hostel 1,sticker of GitHub octocat on top lid,28
 392,FOUND,umbrella,Duck Handle Compact Umbrella,red,Lecture Hall A,"automatic push button handle, dark blue cloth",196
 12,FOUND,wallet,Wildhorn Leather Wallet,white,Computer Lab,black leather slightly worn out at corners,6
 970,LOST,umbrella,Fourseasons Folding Umbrella,black,Badminton Court,foldable with small tear on umbrella sleeve,-1
@@ -543,29 +542,29 @@ id,type,category,name,color,location,description,pair_id
 789,FOUND,book,Thomas Calculus 14th Edition,white,Physics Lab,hardcover edition with brown paper cover,-1
 726,FOUND,earphones,Sony WF-1000XM4,green,Main Canteen,white charging case with red silicone cover,-1
 343,LOST,book,Database System Concepts Silberschatz,silver,Parking Lot,highlighted pages in chapter 4 with student name Sushil on first page,172
-844,LOST,usb drive,Kingston DataTraveler 64GB,gold,Badminton Court,black casing with 32gb engraved on front,-1
+844,LOST,usbdrive,Kingston DataTraveler 64GB,gold,Badminton Court,black casing with 32gb engraved on front,-1
 81,LOST,watch,Casio Vintage Digital Watch,grey,Computer Lab,silver dial with leather strap slightly faded,41
 834,LOST,laptop,MacBook Pro 16,white,Sports Ground,slight scratch near touchpad with black neoprene sleeve,-1
 569,LOST,card,College Student ID Card,red,Main Canteen,in a plastic transparent badge holder with blue lanyard,285
-597,LOST,book,Operating Systems Principles Galvin,matte black,Hostel 2,hardcover edition with brown paper cover,299
+597,LOST,book,Operating Systems Principles Galvin,matteblack,Hostel 2,hardcover edition with brown paper cover,299
 98,FOUND,bag,Safai Trek Bag,grey,Lecture Hall A,blue college bag with water bottle in side mesh,49
 909,FOUND,laptop,Asus ZenBook 14,grey,Hostel 1,slight scratch near touchpad with black neoprene sleeve,-1
-178,FOUND,usb drive,SanDisk Ultra Dual Drive 64GB,grey,Hostel 2,black casing with 32gb engraved on front,89
+178,FOUND,usbdrive,SanDisk Ultra Dual Drive 64GB,grey,Hostel 2,black casing with 32gb engraved on front,89
 495,LOST,bag,Nike Sports Duffel Bag,gold,Hostel 2,"torn near right strap, yellow reflector stripe",248
 604,FOUND,keys,Room 304 Godrej Key,red,Badminton Court,bike key with rubber grip and silver bottle opener,302
 664,FOUND,keys,Car Key with Honda Logo,blue,Hostel 1,attached with blue marvel keychain,332
 860,LOST,phone,OnePlus 11R,red,Hostel 1,cracked screen with transparent back cover,-1
-410,FOUND,book,Thomas Calculus 14th Edition,matte black,Hostel 1,highlighted pages in chapter 4 with student name Sushil on first page,205
-95,LOST,water bottle,Cello Stainless Steel Flask 750ml,gold,Sports Ground,blue sipper cap with measurement markings,48
+410,FOUND,book,Thomas Calculus 14th Edition,matteblack,Hostel 1,highlighted pages in chapter 4 with student name Sushil on first page,205
+95,LOST,waterbottle,Cello Stainless Steel Flask 750ml,gold,Sports Ground,blue sipper cap with measurement markings,48
 580,FOUND,keys,Hero Splendor Bike Key,brown,Physics Lab,attached with blue marvel keychain,290
 921,FOUND,umbrella,Duck Handle Compact Umbrella,black,Main Gate Bus Stop,wooden curved handle with wrist strap,-1
 752,FOUND,card,HDFC Credit Card,blue,Hostel 2,in a plastic transparent badge holder with blue lanyard,-1
-925,FOUND,book,Computer Networks Tanenbaum,matte black,Computer Lab,highlighted pages in chapter 4 with student name Sushil on first page,-1
-660,FOUND,water bottle,Borosil Hydra Stainless Bottle,grey,Computer Lab,metal dent on,330
-272,FOUND,usb drive,Kingston DataTraveler 64GB,green,Nescafe Kiosk,black casing with 32gb engraved on front,136
+925,FOUND,book,Computer Networks Tanenbaum,matteblack,Computer Lab,highlighted pages in chapter 4 with student name Sushil on first page,-1
+660,FOUND,waterbottle,Borosil Hydra Stainless Bottle,grey,Computer Lab,metal dent on,330
+272,FOUND,usbdrive,Kingston DataTraveler 64GB,green,Nescafe Kiosk,black casing with 32gb engraved on front,136
 142,FOUND,bag,Safari Trek Bag,green,Sports Ground,"torn near right strap, yellow reflector stripe",71
-962,FOUND,water bottle,Tupperware Sports Sipper,blue,Badminton Court,metal dent on base with silver cap,-1
-760,FOUND,usb drive,HP Metal Pendrive 128GB,green,Nescafe Kiosk,black casing with 32gb engraved on front,-1
+962,FOUND,waterbottle,Tupperware Sports Sipper,blue,Badminton Court,metal dent on base with silver cap,-1
+760,FOUND,usbdrive,HP Metal Pendrive 128GB,green,Nescafe Kiosk,black casing with 32gb engraved on front,-1
 821,LOST,laptop,Dell Inspiron 14,red,Lecture Hall A,transparent plastic protective shell,-1
 39,LOST,laptop,Dell XPS 13,white,Computer Lab,sticker of GitHub octocat on top lid,20
 939,FOUND,earphones,Sony WF-1000XM4,gold,Badminton Court,"left earbud has small scratch, black case",-1
@@ -573,14 +572,14 @@ id,type,category,name,color,location,description,pair_id
 570,FOUND,card,College Student ID Card,red,Main Canteen,in a plastic transparent badge holder with blue lanyard,285
 524,FOUND,watch,Casio Vintage Digital Watch,black,Hostel 2,silver dial with leather strap slightly faded,262
 567,LOST,watch,Noise ColorFit Pro,black,Main Gate Bus Stop,black strap with magnetic charger clip,284
-941,FOUND,usb drive,Kingston DataTraveler 64GB,blue,Main Gate Bus Stop,small red slider cap attached to metal key ring,-1
+941,FOUND,usbdrive,Kingston DataTraveler 64GB,blue,Main Gate Bus Stop,small red slider cap attached to metal key ring,-1
 875,LOST,phone,OnePlus 11R,grey,Badminton Court,cracked screen with transparent back cover,-1
 988,FOUND,keys,Apartment Main Door Key Bunch,brown,Parking Lot,bike key with rubber grip and silver bottle opener,-1
 778,FOUND,watch,Fossil Gen 6 Hybrid Smartwatch,brown,Physics Lab,silver dial with leather strap slightly faded,-1
-228,FOUND,keys,Room 304 Godrej Key,matte black,Lecture Hall A,bike key with rubber grip and silver bottle opener,114
-308,FOUND,water bottle,Borosil Hydra Stainless Bottle,silver,Hostel 1,blue sipper cap with measurement markings,154
+228,FOUND,keys,Room 304 Godrej Key,matteblack,Lecture Hall A,bike key with rubber grip and silver bottle opener,114
+308,FOUND,waterbottle,Borosil Hydra Stainless Bottle,silver,Hostel 1,blue sipper cap with measurement markings,154
 7,LOST,wallet,Woodland Men Brown Wallet,white,Parking Lot,black leather slightly worn out at corners,4
-310,FOUND,earphones,OnePlus Nord Buds,matte gold,Computer Lab,inside black pouch,155
+310,FOUND,earphones,OnePlus Nord Buds,mattegold,Computer Lab,inside black pouch,155
 993,FOUND,wallet,Titan Formal Wallet,red,Main Gate Bus Stop,brown bi-fold with photo inside transparent slot,-1
 531,LOST,card,Library Access Card,gold,Nescafe Kiosk,in a plastic transparent badge holder with blue lanyard,266
 17,LOST,phone,Redmi Note 12,black,Parking Lot,sticker of anime character on the back,9
@@ -590,40 +589,40 @@ id,type,category,name,color,location,description,pair_id
 407,LOST,keys,Hero Splendor Bike Key,green,Hostel 1,ring of three keys with red ribbon tag,204
 459,LOST,card,State Bank of India Debit Card,blue,Sports Ground,in a plastic transparent badge holder with blue lanyard,230
 886,LOST,wallet,Woodland Men Brown Wallet,red,Lecture Hall A,black leather slightly worn out at corners,-1
-369,LOST,usb drive,Kingston DataTraveler 64GB,red,Badminton Court,small red slider cap attached to metal key ring,185
+369,LOST,usbdrive,Kingston DataTraveler 64GB,red,Badminton Court,small red slider cap attached to metal key ring,185
 261,LOST,keys,Hero Splendor Bike Key,green,Main Canteen,bike key with rubber grip and silver bottle opener,131
 663,LOST,keys,Car Key with Honda Logo,blue,Hostel 1,attached with blue marvel keychain,332
 385,LOST,laptop,Dell XPS 13,silver,Sports Ground,contains college sticker and developer stickers,193
-220,FOUND,water bottle,Cello Stainless Steel Flak 750ml,matte blue,Hostel 2,blue sipper cap with measurement markings,110
-559,LOST,usb drive,Kingston DataTraveler 64GB,red,Lecture Hall B,black casing with 32gb engraved on front,280
+220,FOUND,waterbottle,Cello Stainless Steel Flak 750ml,matteblue,Hostel 2,blue sipper cap with measurement markings,110
+559,LOST,usbdrive,Kingston DataTraveler 64GB,red,Lecture Hall B,black casing with 32gb engraved on front,280
 577,LOST,card,College Student ID Card,gold,Physics Lab,has passport size photo of student,289
 247,LOST,laptop,Dell Inspiron 14,gold,Lecture Hall A,sticker of GitHub octocat on top lid,124
 725,FOUND,book,Thomas Calculus 14th Edition,blue,Hostel 2,pencil notes written in margins,-1
 940,FOUND,wallet,Hidesign Leather Purse,red,Parking Lot,brown bi-fold with photo inside transparent slot,-1
 897,FOUND,card,State Bank of India Debit Card,silver,Hostel 2,"silver chip visible, signature on back",-1
-772,FOUND,usb drive,Kingston DataTraveler 64GB,red,Hostel 2,small red slider cap attached to metal key ring,-1
-788,FOUND,usb drive,HP Metal Pendrive 128GB,green,Hostel 2,small red slider cap attached to metal key ring,-1
+772,FOUND,usbdrive,Kingston DataTraveler 64GB,red,Hostel 2,small red slider cap attached to metal key ring,-1
+788,FOUND,usbdrive,HP Metal Pendrive 128GB,green,Hostel 2,small red slider cap attached to metal key ring,-1
 722,LOST,keys,Hero Splendor Bike Key,green,Computer Lab,ring of three keys with red ribbon tag,-1
 323,LOST,card,State Bank of India Debit Card,grey,Computer Lab,in a plastic transparent badge holder with blue lanyard,162
-361,LOST,water bottle,Tupperware Sports Sipper,white,Computer Lab,metal dent on base with silver cap,181
+361,LOST,waterbottle,Tupperware Sports Sipper,white,Computer Lab,metal dent on base with silver cap,181
 826,LOST,card,Library Access Card,black,Computer Lab,"silver chip visible, signature on back",-1
 976,FOUND,earphones,Realme Buds Air 3,green,Lecture Hall A,"left earbud has small scratch, black case",-1
-846,FOUND,water bottle,Tupperware Sports Sipper,green,Parking Lot,metal dent on base with silver cap,-1
+846,FOUND,waterbottle,Tupperware Sports Sipper,green,Parking Lot,metal dent on base with silver cap,-1
 346,FOUND,keys,Room 304 Godrej Key,gold,Hostel 2,bike key with rubber grip and silver bottle opener,173
 517,LOST,bag,Puma Casual Backpack,silver,Parking Lot,"torn near right strap, yellow reflector stripe",259
 412,FOUND,umbrella,Sun Brand Large Black Umbrella,silver,Hostel 2,"automatic push button handle, dark blue cloth",206
-564,FOUND,usb drive,Kingston DataTraveler 64GB,gold,Physics Lab,small red slider cap attached to metal key ring,282
+564,FOUND,usbdrive,Kingston DataTraveler 64GB,gold,Physics Lab,small red slider cap attached to metal key ring,282
 185,LOST,card,HDFC Credit Card,blue,Lecture Hall A,in a plastic transparent badge holder with blue lanyard,93
-171,LOST,usb drive,HP Metal Pendrive 128GB,matte black,Lecture Hall B,small red slider cap attached to metal key ring,86
+171,LOST,usbdrive,HP Metal Pendrive 128GB,matteblack,Lecture Hall B,small red slider cap attached to metal key ring,86
 107,LOST,card,HDFC Credit Card,white,Lecture Hall B,has passport size photo of student,54
-438,FOUND,water bottle,Borosil Hydra Stainless Bottle,silver,Badminton Court,black matte finish with college club sticker,219
-470,FOUND,water bottle,Milton Thermosteel Bottle 1L,white,Main Gate Bus Stop,metal dent on base with silver cap,235
+438,FOUND,waterbottle,Borosil Hydra Stainless Bottle,silver,Badminton Court,black matte finish with college club sticker,219
+470,FOUND,waterbottle,Milton Thermosteel Bottle 1L,white,Main Gate Bus Stop,metal dent on base with silver cap,235
 742,FOUND,phone,Samsung Galaxy A54,red,Main Gate Bus Stop,black silicone case slightly scratched,-1
 591,LOST,bag,Skybags College Bag,black,Hostel 1,contains spiral notebooks and pencil pouch,296
 109,LOST,earphones,Apple AirPods Pro,green,Main Gate Bus Stop,white charging case with red silicone cover,55
-648,FOUND,usb drive,SanDisk Cruzer Balde 32GB,black,Library,small red slider cap,324
+648,FOUND,usbdrive,SanDisk Cruzer Balde 32GB,black,Library,small red slider cap,324
 625,LOST,bag,Nike Sports Duffel Bag,green,Computer Lab,blue college bag with water bottle in side mesh,313
-855,FOUND,umbrella,Duck Handle Compact Umbrella,matte black,Lecture Hall A,wooden curved handle with wrist strap,-1
+855,FOUND,umbrella,Duck Handle Compact Umbrella,matteblack,Lecture Hall A,wooden curved handle with wrist strap,-1
 184,FOUND,book,Database System Concepts Silberschatz,blue,Library,pencil notes written in margins,92
 584,FOUND,phone,Google Pixyl 7,white,Badminton Court,sticker of anime,292
 770,FOUND,card,Metro Smart Travel Card,silver,Hostel 2,"silver chip visible, signature on back",-1
@@ -632,7 +631,7 @@ id,type,category,name,color,location,description,pair_id
 695,LOST,umbrella,Duck Handle Compact Umbrella,silver,Hostel 1,"automatic push button handle, dark blue cloth",348
 828,FOUND,keys,Room 304 Godrej Key,black,Lecture Hall A,ring of three keys with red ribbon tag,-1
 900,FOUND,umbrella,Fourseasons Folding Umbrella,black,Badminton Court,foldable with small tear on umbrella sleeve,-1
-936,LOST,earphones,Realme Buds Air 3,matte black,Lecture Hall B,"left earbud has small scratch, black case",-1
+936,LOST,earphones,Realme Buds Air 3,matteblack,Lecture Hall B,"left earbud has small scratch, black case",-1
 104,FOUND,card,Library Access Card,red,Parking Lot,has passport size photo of student,52
 100,FOUND,umbrella,Fourseasons Folding Uybrella,green,Sports Ground,foldable with small tear on umbrella sleeve,50
 532,FOUND,card,Library Atcess Card,gold,Nescafe Kiosk,in a plastic transparent badge holder with blue lanyard,266
@@ -640,7 +639,7 @@ id,type,category,name,color,location,description,pair_id
 80,FOUND,bag,Skybags College Bag,brown,Main Canteen,contains spiral notebooks and pencil pouch,40
 312,FOUND,bag,American Tourister Laptop Bag,brown,Lecture Hall A,blue college backpack with water bottle in side mesh,156
 686,FOUND,watch,Apple Watch SE,green,Lecture Hall A,rubber sports band with tiny scratch on glass,343
-42,FOUND,card,College Student ID Crad,matte black,Hostel 2,has passport size photo of student,21
+42,FOUND,card,College Student ID Crad,matteblack,Hostel 2,has passport size photo of student,21
 542,FOUND,keys,Car Key with Honda Logo,red,Main Canteen,bike key with rubber grip and silver bottle opener,271
 843,LOST,bag,Puma Casual Backpack,grey,Hostel 2,contains spiral notebooks and pencil pouch,-1
 632,FOUND,wallet,Hidesign Leather Purse,green,Nescafe Kiosk,brown bi-fold with,316
@@ -656,22 +655,22 @@ id,type,category,name,color,location,description,pair_id
 815,FOUND,book,CLRS Introduction to Algorithms,blue,Lecture Hall B,pencil notes written in margins,-1
 14,FOUND,bag,Safari Trek Bag,grey,Main Gate Bus Stop,"torn near right strap, yellow reflector stripe",7
 73,LOST,phone,iPhone 14,white,Hostel 2,black silicone case slightly scratched,37
-621,LOST,water bottle,Milton Thermosteel Bottle 1L,white,Badminton Court,blue sipper cap with measurement markings,311
-227,LOST,keys,Room 304 Godrej Key,matte black,Nescafe Kiosk,bike key with rubber grip and silver bottle opener,114
+621,LOST,waterbottle,Milton Thermosteel Bottle 1L,white,Badminton Court,blue sipper cap with measurement markings,311
+227,LOST,keys,Room 304 Godrej Key,matteblack,Nescafe Kiosk,bike key with rubber grip and silver bottle opener,114
 712,FOUND,earphones,Realme Buds Air 3,brown,Nescafe Kiosk,"left earbud has small scratch, black case",-1
 877,FOUND,watch,Casio Vintage Digital Watch,black,Nescafe Kiosk,rubber sports band with tiny scratch on glass,-1
 263,LOST,wallet,Hidesign Leather Purse,grey,Main Canteen,contains college id card and some cash,132
 605,LOST,phone,iPhone 13 Pro,brown,Library,cracked screen with transparent back cover,303
-639,LOST,usb drive,Kingston DataTraveler 64GB,black,Physics Lab,black casing with 32gb engraved on front,320
+639,LOST,usbdrive,Kingston DataTraveler 64GB,black,Physics Lab,black casing with 32gb engraved on front,320
 539,LOST,umbrella,Fourseasons Folding Umbrella,brown,Computer Lab,"automatic push button handle, dark blue cloth",270
 731,FOUND,umbrella,Fourseasons Folding Umbrella,brown,Lecture Hall B,"automatic push button handle, dark blue cloth",-1
 398,FOUND,keys,Hero Splendor Bike Key,green,Library,bike key with rubber grip and silver bottle opener,199
-658,FOUND,watch,Titan Fastrack Smartwatch,matte white,Badminton Court,silver dial with,329
+658,FOUND,watch,Titan Fastrack Smartwatch,mattewhite,Badminton Court,silver dial with,329
 585,LOST,laptop,Asus ZenBook 14,gold,Main Canteen,sticker of GitHub octocat on top lid,293
 676,FOUND,card,Lbrary Access Card,white,Parking Lot,has passport size,338
 102,FOUND,bag,Skybags College Bag,gold,Physics Lab,blue college bag with water bottle in side mesh,51
 836,FOUND,book,Computer Networks Tanenbaum,gold,Physics Lab,hardcover edition with brown paper cover,-1
-498,FOUND,usb drive,SanDisk Ultra Dual Drive 6G4B,brown,Physics Lab,black casing with 32gb engraved on front,249
+498,FOUND,usbdrive,SanDisk Ultra Dual Drive 6G4B,brown,Physics Lab,black casing with 32gb engraved on front,249
 922,FOUND,laptop,HP Pavilion 15,brown,Hostel 1,contains college sticker and developer stickers,-1
 207,LOST,earphones,Apple AirPods Pro,silver,Computer Lab,inside black pouch with charging cable,104
 919,LOST,earphones,OnePlus Nord Buds,gold,Library,inside black pouch with charging cable,-1
@@ -683,27 +682,27 @@ id,type,category,name,color,location,description,pair_id
 997,LOST,watch,Fossil Gen 6 Hybrid Smartwatch,blue,Computer Lab,silver dial with leather strap slightly faded,-1
 99,LOST,umbrella,Fourseasons Folding Umbrella,green,Sports Ground,foldable with small tear on umbrella sleeve,50
 890,FOUND,keys,Room 304 Godrej Key,silver,Hostel 2,bike key with rubber grip and silver bottle opener,-1
-330,FOUND,usb drive,SanDisk Ultra Dual Drive 64GB,brown,Lecture Hall A,small red slider cap attached to metal key ring,165
+330,FOUND,usbdrive,SanDisk Ultra Dual Drive 64GB,brown,Lecture Hall A,small red slider cap attached to metal key ring,165
 657,LOST,watch,Titan Fastrack Smartwatch,white,Badminton Court,silver dial with leather strap slightly faded,329
 420,FOUND,wallet,Hidesign Leather Purse,brown,Lecture Hall A,contains college id card and some cash,210
 810,FOUND,book,Thomas Calculus 14th Edition,green,Main Gate Bus Stop,hardcover edition with brown paper cover,-1
 290,FOUND,earphones,Apple AirPods Pro,blue,Physics Lab,left earbud has,145
 908,FOUND,book,Database System Concepts Silberschatz,black,Library,pencil notes written in margins,-1
 758,FOUND,card,State Bank of India Debit Card,black,Sports Ground,in a plastic transparent badge holder with blue lanyard,-1
-565,LOST,water bottle,Cello Stainless Steel Flask 750ml,silver,Hostel 2,blue sipper cap with measurement markings,283
+565,LOST,waterbottle,Cello Stainless Steel Flask 750ml,silver,Hostel 2,blue sipper cap with measurement markings,283
 510,FOUND,keys,Car Key with Honda Logo,brown,Hostel 1,attached with blue marvel keychain,255
 979,FOUND,bag,Puma Casual Backpack,green,Nescafe Kiosk,blue college bag with water bottle in side mesh,-1
 730,LOST,watch,Fossil Gen 6 Hybrid Smartwatch,green,Badminton Court,rubber sports band with tiny scratch on glass,-1
 397,LOST,keys,Hero Splendor Bike Key,green,Library,bike key with rubber grip and silver bottle opener,199
-552,FOUND,laptop,Dell Inspiron 14,matte black,Sports Ground,contains college sticker and developer stickers,276
+552,FOUND,laptop,Dell Inspiron 14,matteblack,Sports Ground,contains college sticker and developer stickers,276
 675,LOST,card,Library Access Card,white,Computer Lab,has passport size photo of student,338
 65,LOST,earphones,Sony WF-1000XM4,grey,Hostel 1,white charging case with red silicone cover,33
-880,FOUND,water bottle,Tupperware Sports Sipper,matte black,Computer Lab,black matte finish with college club sticker,-1
+880,FOUND,waterbottle,Tupperware Sports Sipper,matteblack,Computer Lab,black matte finish with college club sticker,-1
 245,LOST,phone,OnePlus 11R,green,Badminton Court,cracked screen with transparent back cover,123
-636,FOUND,water bottle,Milton Thermosteel Bottle 1L,dark,Main Gate Bus Stop,black matte finish with college club sticker,318
+636,FOUND,waterbottle,Milton Thermosteel Bottle 1L,dark,Main Gate Bus Stop,black matte finish with college club sticker,318
 373,LOST,laptop,Lenovo ThinkPad X1,red,Hostel 2,sticker of GitHub octocat on top lid,187
-635,LOST,water bottle,Milton Thermosteel Bottle 1L,grey,Main Gate Bus Stop,black matte finish with college club sticker,318
-879,LOST,usb drive,SanDisk Cruzer Blade 32GB,red,Badminton Court,small red slider cap attached to metal key ring,-1
+635,LOST,waterbottle,Milton Thermosteel Bottle 1L,grey,Main Gate Bus Stop,black matte finish with college club sticker,318
+879,LOST,usbdrive,SanDisk Cruzer Blade 32GB,red,Badminton Court,small red slider cap attached to metal key ring,-1
 190,FOUND,laptop,Asus ZenBook 14,green,Main Canteen,transparent plastic protective shell,95
 389,LOST,wallet,Titan Formal Wallet,white,Physics Lab,contains college id card and some cash,195
 519,LOST,umbrella,Sun Brand Large Black Umbrella,gold,Main Canteen,foldable with small tear on umbrella sleeve,260
@@ -714,47 +713,47 @@ id,type,category,name,color,location,description,pair_id
 555,LOST,watch,Casio Vintage Digital Watch,green,Computer Lab,black strap with magnetic charger clip,278
 916,FOUND,keys,Hero Splendor Bike Key,brown,Hostel 2,ring of three keys with red ribbon tag,-1
 303,LOST,keys,Apartment Main Door Key Bunch,black,Parking Lot,bike key with rubber grip and silver bottle opener,152
-461,LOST,water bottle,Borosil Hydra Stainless Bottle,red,Nescafe Kiosk,black matte finish with college club sticker,231
+461,LOST,waterbottle,Borosil Hydra Stainless Bottle,red,Nescafe Kiosk,black matte finish with college club sticker,231
 773,LOST,keys,Honda Activa Key with keychain,grey,Nescafe Kiosk,ring of three keys with red ribbon tag,-1
 544,FOUND,book,Thomas Calculus 14th Edition,silver,Nescafe Kiosk,hardcover edition with brown paper cover,272
 894,FOUND,watch,Apple Watch SE,black,Main Canteen,black strap with magnetic charger clip,-1
 165,LOST,wallet,Hidesign Leather Purse,white,Nescafe Kiosk,contains college id card and some cash,83
 568,FOUND,watch,Noise ColorFit Pro,dark,Main Gate Bus Stop,black strap with magnetic charger clip,284
-614,FOUND,watch,Apple Watch SE,matte brown,Computer Lab,black strap with magnetic charger clip,307
-282,FOUND,water bottle,Tupperware Sports Sipper,blue,Nescafe Kiosk,blue sipper cap with measurement markings,141
+614,FOUND,watch,Apple Watch SE,mattebrown,Computer Lab,black strap with magnetic charger clip,307
+282,FOUND,waterbottle,Tupperware Sports Sipper,blue,Nescafe Kiosk,blue sipper cap with measurement markings,141
 480,FOUND,bag,Skybags College Bag,grey,Main Gate Bus Stop,blue college bag with water bottle in side mesh,240
-332,FOUND,usb drive,SaDisk Ultra Dual Drive 64GB,blue,Parking Lot,black casing with 32gb engraved on front,166
-357,LOST,earphones,Noise Buds VS102,matte black,Hostel 2,"left earbud has small scratch, black case",179
-839,LOST,laptop,MacBook Pro 16,matte black,Hostel 1,transparent plastic protective shell,-1
-192,FOUND,water bottle,Borosil Hydra Stainless Bottle,silver,Sports Ground,blue sipper cap with measurement markings,96
-581,LOST,water bottle,Borosil Hydra Stainless Bottle,green,Main Gate Bus Stop,black matte finish with college club sticker,291
+332,FOUND,usbdrive,SaDisk Ultra Dual Drive 64GB,blue,Parking Lot,black casing with 32gb engraved on front,166
+357,LOST,earphones,Noise Buds VS102,matteblack,Hostel 2,"left earbud has small scratch, black case",179
+839,LOST,laptop,MacBook Pro 16,matteblack,Hostel 1,transparent plastic protective shell,-1
+192,FOUND,waterbottle,Borosil Hydra Stainless Bottle,silver,Sports Ground,blue sipper cap with measurement markings,96
+581,LOST,waterbottle,Borosil Hydra Stainless Bottle,green,Main Gate Bus Stop,black matte finish with college club sticker,291
 195,LOST,watch,Apple Watch SE,brown,Library,black strap with magnetic charger clip,98
-502,FOUND,usb drive,Kingston DataTraveler 64GB,black,Lecture Hall A,black casing with 32gb engraved on front,251
-851,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,white,Badminton Court,black casing with 32gb engraved on front,-1
+502,FOUND,usbdrive,Kingston DataTraveler 64GB,black,Lecture Hall A,black casing with 32gb engraved on front,251
+851,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,white,Badminton Court,black casing with 32gb engraved on front,-1
 556,FOUND,watch,Casio Vintare Digital Watch,green,Computer Lab,black strap with magnetic charger clip,278
-302,FOUND,usb drive,SanDisk Cruzer Blade 3G2B,gold,Hostel 2,small red slider cap attached to metal key ring,151
-573,LOST,water bottle,Tupperware Sports Sipper,matte black,Hostel 1,metal dent on base with silver cap,287
+302,FOUND,usbdrive,SanDisk Cruzer Blade 3G2B,gold,Hostel 2,small red slider cap attached to metal key ring,151
+573,LOST,waterbottle,Tupperware Sports Sipper,matteblack,Hostel 1,metal dent on base with silver cap,287
 868,FOUND,wallet,Hidesign Leather Purse,grey,Library,brown bi-fold with photo inside transparent slot,-1
 724,FOUND,laptop,Dell Inspiron 14,blue,Lecture Hall B,contains college sticker and developer stickers,-1
-497,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,brown,Physics Lab,black casing with 32gb engraved on front,249
-41,LOST,card,College Student ID Card,matte black,Hostel 1,has passport size photo of student,21
-957,FOUND,usb drive,SanDisk Ultra Dual Drive 64GB,green,Hostel 1,black casing with 32gb engraved on front,-1
+497,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,brown,Physics Lab,black casing with 32gb engraved on front,249
+41,LOST,card,College Student ID Card,matteblack,Hostel 1,has passport size photo of student,21
+957,FOUND,usbdrive,SanDisk Ultra Dual Drive 64GB,green,Hostel 1,black casing with 32gb engraved on front,-1
 138,FOUND,keys,Honda Activa Key wikh keychain,blue,Main Canteen,ring of three keys,69
-367,LOST,water bottle,Tupperware Sports Sipper,blue,Badminton Court,blue sipper cap with measurement markings,184
-387,LOST,usb drive,HP Metal Pendrive 128GB,red,Nescafe Kiosk,small red slider cap attached to metal key ring,194
+367,LOST,waterbottle,Tupperware Sports Sipper,blue,Badminton Court,blue sipper cap with measurement markings,184
+387,LOST,usbdrive,HP Metal Pendrive 128GB,red,Nescafe Kiosk,small red slider cap attached to metal key ring,194
 706,FOUND,umbrella,Fourseasons Folding Umbrella,silver,Hostel 1,foldable with small tear on umbrella sleeve,-1
 22,FOUND,umbrella,Sun Brand Large Black Umbrella,red,Library,automatic push button,11
 198,FOUND,book,CLRS Introduction to Algorithms,gold,Sports Ground,highlighted pages in chapter 4 with,99
-450,FOUND,usb drive,SanDisk Ultra Dual Drive 64GB,gold,Parking Lot,small red slider cap attached to metal key ring,225
+450,FOUND,usbdrive,SanDisk Ultra Dual Drive 64GB,gold,Parking Lot,small red slider cap attached to metal key ring,225
 973,LOST,phone,Redmi Note 12,green,Hostel 1,cracked screen with transparent back cover,-1
 759,LOST,umbrella,Fourseasons Folding Umbrella,white,Lecture Hall B,wooden curved handle with wrist strap,-1
-572,FOUND,water bottle,Tupperware Sports Sipper,matte black,Main Canteen,blue sipper cap with measurement markings,286
+572,FOUND,waterbottle,Tupperware Sports Sipper,matteblack,Main Canteen,blue sipper cap with measurement markings,286
 325,LOST,bag,Nike Sports Duffel Bag,red,Library,contains spiral notebooks and pencil pouch,163
 865,FOUND,bag,Puma Casual Backpack,gold,Sports Ground,"torn near right strap, yellow reflector stripe",-1
 500,FOUND,phone,Realme 10 Pro,black,Computer Lab,cracked screen with,250
-870,FOUND,water bottle,Cello Stainless Steel Flask 750ml,red,Badminton Court,metal dent on base with silver cap,-1
+870,FOUND,waterbottle,Cello Stainless Steel Flask 750ml,red,Badminton Court,metal dent on base with silver cap,-1
 110,FOUND,earphones,Apple AirPods Pro,green,Nescafe Kiosk,white charging case with red silicone cover,55
-550,FOUND,usb drive,SanDisk Cruzer Blde 32GB,green,Hostel 2,black casing with 32gb engraved on front,275
+550,FOUND,usbdrive,SanDisk Cruzer Blde 32GB,green,Hostel 2,black casing with 32gb engraved on front,275
 719,LOST,laptop,Acer Aspire 5,white,Lecture Hall A,contains college sticker and developer stickers,-1
 158,FOUND,bag,Wildcraft Backpack,gold,Parking Lot,contains spiral notebooks and pencil pouch,79
 661,LOST,earphones,OnePlus Nord Buds,grey,Computer Lab,white charging case with red silicone cover,331
@@ -764,82 +763,82 @@ id,type,category,name,color,location,description,pair_id
 913,LOST,card,College Student ID Card,brown,Physics Lab,in a plastic transparent badge holder with blue lanyard,-1
 347,LOST,phone,iPhone 14,grey,Computer Lab,sticker of anime character on the back,174
 634,FOUND,laptop,Asus ZenBook 14,blue,Badminton Court,slight scratch near touchpad with black neoprene sleeve,317
-703,FOUND,water bottle,Tupperware Sports Sipper,silver,Main Gate Bus Stop,blue sipper cap with measurement markings,-1
+703,FOUND,waterbottle,Tupperware Sports Sipper,silver,Main Gate Bus Stop,blue sipper cap with measurement markings,-1
 94,FOUND,phone,Google Pixel 7,grey,Lecture Hall A,has tempered glass screen protector with small crack at corner,47
-512,FOUND,water bottle,Milton Thermosteel Bottle 1L,blue,Nescafe Kiosk,black matte finish with college club sticker,256
+512,FOUND,waterbottle,Milton Thermosteel Bottle 1L,blue,Nescafe Kiosk,black matte finish with college club sticker,256
 162,FOUND,bag,Sfari Trek Bag,white,Lecture Hall B,"torn near right strap, yellow reflector stripe",81
 982,FOUND,book,Thomas Calculus 14th Edition,grey,Badminton Court,pencil notes written in margins,-1
 968,FOUND,keys,Apartment Main Door Key Bunch,red,Sports Ground,bike key with rubber grip and silver bottle opener,-1
 853,FOUND,card,State Bank of India Debit Card,black,Main Gate Bus Stop,has passport size photo of student,-1
 159,LOST,book,Database System Concepts Silberschatz,grey,Hostel 1,hardcover edition with brown paper cover,80
 611,LOST,laptop,Dell XPS 13,white,Sports Ground,sticker of GitHub octocat on top lid,306
-948,LOST,water bottle,Tupperware Sports Sipper,white,Library,blue sipper cap with measurement markings,-1
-487,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,white,Main Gate Bus Stop,small red slider cap attached to metal key ring,244
+948,LOST,waterbottle,Tupperware Sports Sipper,white,Library,blue sipper cap with measurement markings,-1
+487,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,white,Main Gate Bus Stop,small red slider cap attached to metal key ring,244
 708,LOST,bag,American Tourister Laptop Bag,red,Physics Lab,"torn near right strap, yellow reflector stripe",-1
 596,FOUND,wallet,Woodland Men Brown Wallet,silver,Lecture Hall A,contains college id card and some cash,298
-806,FOUND,water bottle,Tupperware Sports Sipper,green,Main Gate Bus Stop,metal dent on base with silver cap,-1
-942,FOUND,usb drive,Kingston DataTraveler 64GB,blue,Lecture Hall A,black casing with 32gb engraved on front,-1
-249,LOST,water bottle,Milton Thermosteel Bottle 1L,black,Sports Ground,black matte finish with college club sticker,125
+806,FOUND,waterbottle,Tupperware Sports Sipper,green,Main Gate Bus Stop,metal dent on base with silver cap,-1
+942,FOUND,usbdrive,Kingston DataTraveler 64GB,blue,Lecture Hall A,black casing with 32gb engraved on front,-1
+249,LOST,waterbottle,Milton Thermosteel Bottle 1L,black,Sports Ground,black matte finish with college club sticker,125
 406,FOUND,umbrella,Sun Brand Large Black Umbrella,gold,Badminton Court,wooden curved handle,203
 123,LOST,phone,Redmi Note 12,white,Library,white ring holder attached on back case,62
-599,LOST,usb drive,HP Metal Pendrive 128GB,red,Sports Ground,black casing with 32gb engraved on front,300
-283,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,grey,Computer Lab,black casing with 32gb engraved on front,142
-172,FOUND,usb drive,HP Metal Pendrive 128GB,matte black,Lecture Hall B,small red slider cap attached to metal key ring,86
+599,LOST,usbdrive,HP Metal Pendrive 128GB,red,Sports Ground,black casing with 32gb engraved on front,300
+283,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,grey,Computer Lab,black casing with 32gb engraved on front,142
+172,FOUND,usbdrive,HP Metal Pendrive 128GB,matteblack,Lecture Hall B,small red slider cap attached to metal key ring,86
 862,FOUND,card,College Student ID Card,silver,Badminton Court,in a plastic transparent badge holder with blue lanyard,-1
-333,LOST,laptop,Dell Inspiron 14,matte black,Badminton Court,sticker of GitHub octocat on top lid,167
+333,LOST,laptop,Dell Inspiron 14,matteblack,Badminton Court,sticker of GitHub octocat on top lid,167
 445,LOST,wallet,Tommy Hilfiger Bi-fold Wallet,white,Library,brown bi-fold with photo inside transparent slot,223
-649,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,white,Main Canteen,small red slider cap attached to metal key ring,325
-242,FOUND,earphones,Noise Buds VS102,matte black,Physics Lab,"left earbud has small scratch, black case",121
+649,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,white,Main Canteen,small red slider cap attached to metal key ring,325
+242,FOUND,earphones,Noise Buds VS102,matteblack,Physics Lab,"left earbud has small scratch, black case",121
 116,FOUND,bag,American Tourister Laptop Bag,green,Sports Ground,blue college bag with water bottle in side mesh,58
 224,FOUND,earphones,Sony WF-1000XM4,dark,Parking Lot,left earbud has,112
 683,LOST,umbrella,Duck Handle Compact Umbrella,white,Hostel 2,foldable with small tear on umbrella sleeve,342
 54,FOUND,card,College Student ID Card,black,Computer Lab,in a plastic transparent,27
-370,FOUND,usb drive,Kigston DataTraveler 64GB,,Badminton Court,small red slider cap attached to metal key ring,185
+370,FOUND,usbdrive,Kigston DataTraveler 64GB,,Badminton Court,small red slider cap attached to metal key ring,185
 822,FOUND,phone,Realme 10 Pro,white,Badminton Court,has tempered glass screen protector with small crack at corner,-1
 306,FOUND,wallet,Hidesign Leather Purse,silver,Main Canteen,contains college id card and some cash,153
 654,FOUND,wallet,Tommy Hilfiegr Bi-fold Wallet,blue,Badminton Court,black leather slightly,327
-493,LOST,card,Library Access Card,matte black,Main Gate Bus Stop,has passport size photo of student,247
+493,LOST,card,Library Access Card,matteblack,Main Gate Bus Stop,has passport size photo of student,247
 260,FOUND,laptop,MacBook Air M2,green,Computer Lab,transparent plastic protective shell,130
-126,FOUND,keys,Honda Activa Key with keychain,matte black,Hostel 1,bike key with rubber grip and silver bottle opener,63
-817,LOST,water bottle,Tupperware Sports Sipper,gold,Badminton Court,blue sipper cap with measurement markings,-1
-563,LOST,usb drive,Kingston DataTraveler 64GB,gold,Physics Lab,small red slider cap attached to metal key ring,282
-763,FOUND,card,Library Access Card,matte black,Lecture Hall B,has passport size photo of student,-1
+126,FOUND,keys,Honda Activa Key with keychain,matteblack,Hostel 1,bike key with rubber grip and silver bottle opener,63
+817,LOST,waterbottle,Tupperware Sports Sipper,gold,Badminton Court,blue sipper cap with measurement markings,-1
+563,LOST,usbdrive,Kingston DataTraveler 64GB,gold,Physics Lab,small red slider cap attached to metal key ring,282
+763,FOUND,card,Library Access Card,matteblack,Lecture Hall B,has passport size photo of student,-1
 44,FOUND,book,CLRS Introduction to Algorithms,dark,Library,hardcover edition with,22
-746,FOUND,wallet,Titan Formal Wallet,matte black,Hostel 2,contains college id card and some cash,-1
+746,FOUND,wallet,Titan Formal Wallet,matteblack,Hostel 2,contains college id card and some cash,-1
 645,LOST,umbrella,Fourseasons Folding Umbrella,red,Physics Lab,foldable with small tear on umbrella sleeve,323
 163,LOST,book,Thomas Calculus 14th Edition,black,Lecture Hall A,hardcover edition with brown paper cover,82
-331,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,blue,Parking Lot,black casing with 32gb engraved on front,166
+331,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,blue,Parking Lot,black casing with 32gb engraved on front,166
 857,LOST,earphones,OnePlus Nord Buds,gold,Computer Lab,"left earbud has small scratch, black case",-1
 698,FOUND,earphones,Realme Bus Air 3,black,Hostel 1,white charging case,349
 399,LOST,book,Computer Networks Tanenbaum,grey,Hostel 1,pencil notes written in margins,200
 485,LOST,umbrella,Duck Handle Compact Umbrella,gold,Lecture Hall A,foldable with small tear on umbrella sleeve,243
-214,FOUND,usb drive,HP Metal Pendrive 128GB,matte brown,Lecture Hall B,small red slider cap attached to metal key ring,107
+214,FOUND,usbdrive,HP Metal Pendrive 128GB,mattebrown,Lecture Hall B,small red slider cap attached to metal key ring,107
 682,FOUND,book,CLRS Introuction to Algorithms,green,Hostel 2,hardcover edition with,341
 534,FOUND,wallet,Titan Formal Wallet,green,Parking Lot,contains college id,267
 97,LOST,bag,Safari Trek Bag,grey,Lecture Hall A,blue college bag with water bottle in side mesh,49
-907,LOST,water bottle,Cello Stainless Steel Flask 750ml,gold,Parking Lot,black matte finish with college club sticker,-1
-753,LOST,keys,Car Key with Honda Logo,matte black,Sports Ground,attached with blue marvel keychain,-1
+907,LOST,waterbottle,Cello Stainless Steel Flask 750ml,gold,Parking Lot,black matte finish with college club sticker,-1
+753,LOST,keys,Car Key with Honda Logo,matteblack,Sports Ground,attached with blue marvel keychain,-1
 472,FOUND,phone,OnePlus 11R,gold,Lecture Hall B,black silicone case slightly scratched,236
 204,FOUND,bag,Safari Trek Bag,blue,Physics Lab,blue college bag with water bottle in side mesh,102
 35,LOST,bag,Puma Casual Backpack,white,Main Gate Bus Stop,contains spiral notebooks and pencil pouch,18
-756,LOST,earphones,Noise Buds VS102,matte black,Parking Lot,white charging case with red silicone cover,-1
+756,LOST,earphones,Noise Buds VS102,matteblack,Parking Lot,white charging case with red silicone cover,-1
 254,FOUND,umbrella,Duck Handle Compact Umbrella,,Main Gate Bus Stop,wooden curved handle with wrist strap,127
 454,FOUND,card,College Student ID Card,silver,Main Canteen,"silver chip visible, signature on back",227
 790,LOST,bag,Skybags College Bag,silver,Lecture Hall A,"torn near right strap, yellow reflector stripe",-1
 395,LOST,book,Computer Networks Tanenbaum,brown,Lecture Hall B,pencil notes written in margins,198
 255,LOST,card,College Student ID Card,green,Sports Ground,in a plastic transparent badge holder with blue lanyard,128
-732,FOUND,usb drive,SanDisk Cruzer Blade 32GB,gold,Hostel 1,small red slider cap attached to metal key ring,-1
+732,FOUND,usbdrive,SanDisk Cruzer Blade 32GB,gold,Hostel 1,small red slider cap attached to metal key ring,-1
 787,FOUND,earphones,Boat Airdopes 141,black,Lecture Hall B,"left earbud has small scratch, black case",-1
-125,LOST,keys,Honda Activa Key with keychain,matte black,Hostel 1,bike key with rubber grip and silver bottle opener,63
+125,LOST,keys,Honda Activa Key with keychain,matteblack,Hostel 1,bike key with rubber grip and silver bottle opener,63
 13,LOST,bag,Safari Trek Bag,grey,Main Gate Bus Stop,"torn near right strap, yellow reflector stripe",7
 391,LOST,umbrella,Duck Handle Compact Umbrella,red,Lecture Hall A,"automatic push button handle, dark blue cloth",196
 257,LOST,keys,Car Key with Honda Logo,red,Hostel 2,ring of three keys with red ribbon tag,129
 197,LOST,book,CLRS Introduction to Algorithms,gold,Sports Ground,highlighted pages in chapter 4 with student name Sushil on first page,99
 186,FOUND,card,HDFC Credit Card,blue,Physics Lab,in a plastic transparent badge holder with blue lanyard,93
 482,FOUND,earphones,Realme Buds Air 3,white,Sports Ground,white charging case,241
-557,LOST,watch,Noise ColorFit Pro,matte black,Main Gate Bus Stop,rubber sports band with tiny scratch on glass,279
+557,LOST,watch,Noise ColorFit Pro,matteblack,Main Gate Bus Stop,rubber sports band with tiny scratch on glass,279
 74,FOUND,phone,iPhone 14,white,Hostel 2,black silicone case slightly scratched,37
-402,FOUND,keys,Apartment Main Door Key Bunhc,matte red,Library,attached with blue marvel keychain,201
+402,FOUND,keys,Apartment Main Door Key Bunhc,mattered,Library,attached with blue marvel keychain,201
 795,FOUND,book,Operating Systems Principles Galvin,white,Main Gate Bus Stop,pencil notes written in margins,-1
 273,LOST,umbrella,Duck Handle Compact Umbrella,blue,Library,"automatic push button handle, dark blue cloth",137
 58,FOUND,wallet,Woodland Men Brown Wallet,red,Lecture Hall A,black leather slightly worn out at corners,29
@@ -848,11 +847,11 @@ id,type,category,name,color,location,description,pair_id
 83,LOST,keys,Hero Splendor Bike Key,blue,Lecture Hall B,attached with blue marvel keychain,42
 339,LOST,keys,Room 304 Godrej Key,black,Main Canteen,attached with blue marvel keychain,170
 33,LOST,card,College Student ID Card,silver,Hostel 2,has passport size photo of student,17
-811,FOUND,water bottle,Cello Stainless Steel Flask 750ml,blue,Physics Lab,blue sipper cap with measurement markings,-1
+811,FOUND,waterbottle,Cello Stainless Steel Flask 750ml,blue,Physics Lab,blue sipper cap with measurement markings,-1
 714,LOST,book,CLRS Introduction to Algorithms,black,Lecture Hall B,highlighted pages in chapter 4 with student name Sushil on first page,-1
 475,LOST,card,Library Access Card,silver,Hostel 2,"silver chip visible, signature on back",238
-381,LOST,water bottle,Tupperware Sports Sipper,matte black,Library,metal dent on base with silver cap,191
-511,LOST,water bottle,Milton Thermosteel Bottle 1L,blue,Nescafe Kiosk,black matte finish with college club sticker,256
+381,LOST,waterbottle,Tupperware Sports Sipper,matteblack,Library,metal dent on base with silver cap,191
+511,LOST,waterbottle,Milton Thermosteel Bottle 1L,blue,Nescafe Kiosk,black matte finish with college club sticker,256
 819,FOUND,earphones,Noise Buds VS102,gold,Hostel 1,white charging case with red silicone cover,-1
 805,FOUND,phone,iPhone 13 Pro,silver,Library,sticker of anime character on the back,-1
 320,FOUND,book,Operating Systems Principles Galvin,red,Hostel 2,pencil notes written in margins,160
@@ -866,25 +865,25 @@ id,type,category,name,color,location,description,pair_id
 239,LOST,keys,Honda Activa Key with keychain,silver,Parking Lot,bike key with rubber grip and silver bottle opener,120
 949,LOST,umbrella,Fourseasons Folding Umbrella,black,Main Canteen,"automatic push button handle, dark blue cloth",-1
 745,LOST,bag,Skybags College Bag,grey,Main Gate Bus Stop,contains spiral notebooks and pencil pouch,-1
-449,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,gold,Parking Lot,small red slider cap attached to metal key ring,225
+449,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,gold,Parking Lot,small red slider cap attached to metal key ring,225
 923,FOUND,earphones,Apple AirPods Pro,green,Hostel 1,white charging case with red silicone cover,-1
 129,LOST,umbrella,Duck Handle Compact Umbrella,white,Computer Lab,wooden curved handle with wrist strap,65
 898,LOST,wallet,Woodland Men Brown Wallet,gold,Lecture Hall A,black leather slightly worn out at corners,-1
 289,LOST,earphones,Apple AirPods Pro,blue,Physics Lab,"left earbud has small scratch, black case",145
 105,LOST,card,HDFC Credit Card,silver,Main Gate Bus Stop,has passport size photo of student,53
-191,LOST,water bottle,Borosil Hydra Stainless Bottle,silver,Sports Ground,blue sipper cap with measurement markings,96
+191,LOST,waterbottle,Borosil Hydra Stainless Bottle,silver,Sports Ground,blue sipper cap with measurement markings,96
 23,LOST,earphones,Noise Buds VS102,green,Hostel 1,white charging case with red silicone cover,12
 950,LOST,earphones,Boat Airdopes 141,grey,Parking Lot,"left earbud has small scratch, black case",-1
-51,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,silver,Lecture Hall A,black casing with 32gb engraved on front,26
+51,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,silver,Lecture Hall A,black casing with 32gb engraved on front,26
 156,FOUND,book,CRS Introduction to Algorithms,blue,Nescafe Kiosk,hardcover edition with,78
-20,FOUND,water bottle,Borosil Hyda Stainless Bottle,green,Hostel 2,black matte finish with college club sticker,10
-329,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,brown,Hostel 1,small red slider cap attached to metal key ring,165
+20,FOUND,waterbottle,Borosil Hyda Stainless Bottle,green,Hostel 2,black matte finish with college club sticker,10
+329,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,brown,Hostel 1,small red slider cap attached to metal key ring,165
 896,FOUND,book,Database System Concepts Silberschatz,brown,Main Canteen,hardcover edition with brown paper cover,-1
-946,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,green,Hostel 1,black casing with 32gb engraved on front,-1
-638,FOUND,laptop,Dell Inspiron 14,matte black,Hostel 1,sticker of GitHub,319
-718,FOUND,water bottle,Cello Stainless Steel Flask 750ml,matte black,Nescafe Kiosk,metal dent on base with silver cap,-1
+946,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,green,Hostel 1,black casing with 32gb engraved on front,-1
+638,FOUND,laptop,Dell Inspiron 14,matteblack,Hostel 1,sticker of GitHub,319
+718,FOUND,waterbottle,Cello Stainless Steel Flask 750ml,matteblack,Nescafe Kiosk,metal dent on base with silver cap,-1
 929,LOST,umbrella,Duck Handle Compact Umbrella,black,Parking Lot,wooden curved handle with wrist strap,-1
-464,FOUND,water bottle,Cello Stainless Steel Flask 750ml,dark,Computer Lab,metal dent on base with silver cap,232
+464,FOUND,waterbottle,Cello Stainless Steel Flask 750ml,dark,Computer Lab,metal dent on base with silver cap,232
 633,LOST,laptop,Asus ZenBook 14,blue,Badminton Court,slight scratch near touchpad with black neoprene sleeve,317
 467,LOST,earphones,Sony WF-1000XM4,white,Main Gate Bus Stop,white charging case with red silicone cover,234
 653,LOST,wallet,Tommy Hilfiger Bi-fold Wallet,blue,Badminton Court,black leather slightly worn out at corners,327
@@ -895,32 +894,32 @@ id,type,category,name,color,location,description,pair_id
 71,LOST,earphones,JBL Wave 200,black,Main Canteen,inside black pouch with charging cable,36
 874,LOST,phone,Vivo V27,red,Library,cracked screen with transparent back cover,-1
 193,LOST,keys,Honda Activa Key with keychain,white,Hostel 1,ring of three keys with red ribbon tag,97
-964,LOST,usb drive,Kingston DataTraveler 64GB,brown,Main Gate Bus Stop,small red slider cap attached to metal key ring,-1
+964,LOST,usbdrive,Kingston DataTraveler 64GB,brown,Main Gate Bus Stop,small red slider cap attached to metal key ring,-1
 276,FOUND,watch,Casio Vintage Digital Wach,white,Parking Lot,rubber sports band with tiny scratch on glass,138
-829,FOUND,card,Library Access Card,matte black,Sports Ground,"silver chip visible, signature on back",-1
+829,FOUND,card,Library Access Card,matteblack,Sports Ground,"silver chip visible, signature on back",-1
 545,LOST,bag,American Tourister Laptop Bag,green,Lecture Hall B,contains spiral notebooks and pencil pouch,273
 761,FOUND,wallet,Woodland Men Brown Wallet,brown,Lecture Hall B,brown bi-fold with photo inside transparent slot,-1
 665,LOST,phone,Samsung Galaxy A54,silver,Lecture Hall A,sticker of anime character on the back,333
-292,FOUND,water bottle,Borosil Hydra Stainless Bottle,brown,Parking Lot,blue sipper cap with measurement markings,146
+292,FOUND,waterbottle,Borosil Hydra Stainless Bottle,brown,Parking Lot,blue sipper cap with measurement markings,146
 996,FOUND,laptop,MacBook Air M2,blue,Sports Ground,sticker of GitHub octocat on top lid,-1
 702,FOUND,keys,Honda Activa Key with keychain,silver,Main Gate Bus Stop,ring of three keys with red ribbon tag,-1
-711,LOST,usb drive,SanDisk Cruzer Blade 32GB,black,Nescafe Kiosk,black casing with 32gb engraved on front,-1
+711,LOST,usbdrive,SanDisk Cruzer Blade 32GB,black,Nescafe Kiosk,black casing with 32gb engraved on front,-1
 827,FOUND,card,Library Access Card,white,Hostel 2,"silver chip visible, signature on back",-1
 628,FOUND,keys,Honda Activa Key with keychain,green,Hostel 1,ring of three keys with red ribbon tag,314
-820,LOST,water bottle,Cello Stainless Steel Flask 750ml,gold,Sports Ground,black matte finish with college club sticker,-1
+820,LOST,waterbottle,Cello Stainless Steel Flask 750ml,gold,Sports Ground,black matte finish with college club sticker,-1
 783,FOUND,watch,Titan Fastrack Smartwatch,black,Badminton Court,black strap with magnetic charger clip,-1
 530,FOUND,laptop,MacBook Air M2,dark,Lecture Hall B,contains college sticker and developer stickers,265
 246,FOUND,phone,OnePlus 11R,green,Badminton Court,cracked screen with transparent back cover,123
 641,LOST,earphones,Sony WF-1000XM4,silver,Main Gate Bus Stop,"left earbud has small scratch, black case",321
 433,LOST,earphones,Realme Buds Air 3,silver,Library,"left earbud has small scratch, black case",217
 82,FOUND,watch,Casio Vintage Digital Watch,grey,Computer Lab,silver dial with leather strap slightly faded,41
-270,FOUND,usb drive,HP Metml Pendrive 128GB,red,Main Gate Bus Stop,small red slider cap,135
+270,FOUND,usbdrive,HP Metml Pendrive 128GB,red,Main Gate Bus Stop,small red slider cap,135
 226,FOUND,bag,Safari Trek Bag,,Parking Lot,torn near right,113
-388,FOUND,usb drive,HP Metal Pendrive 128GB,dark,Nescafe Kiosk,small red slider cap attached to metal key ring,194
+388,FOUND,usbdrive,HP Metal Pendrive 128GB,dark,Nescafe Kiosk,small red slider cap attached to metal key ring,194
 849,LOST,phone,Google Pixel 7,white,Parking Lot,white ring holder attached on back case,-1
 400,FOUND,book,Computer Networks Tanenbaum,grey,Computer Lab,pencil notes written in margins,200
 662,FOUND,earphones,OnePlus Nord Buds,grey,Computer Lab,white charging case with red silicone cover,331
-755,FOUND,usb drive,SanDisk Cruzer Blade 32GB,grey,Library,black casing with 32gb engraved on front,-1
+755,FOUND,usbdrive,SanDisk Cruzer Blade 32GB,grey,Library,black casing with 32gb engraved on front,-1
 733,LOST,book,Operating Systems Principles Galvin,silver,Lecture Hall A,highlighted pages in chapter 4 with student name Sushil on first page,-1
 168,FOUND,laptop,Dell XPS 13,silver,Parking Lot,transparent plastic protective shell,84
 256,FOUND,card,College Student ID Card,green,Sports Ground,in a plastic transparent badge holder with blue lanyard,128
@@ -931,46 +930,46 @@ id,type,category,name,color,location,description,pair_id
 422,FOUND,wallet,Woodland Men Brown Wallet,brown,Main Canteen,black leather slightly worn out at corners,211
 194,FOUND,keys,Honda Activa Key wih keychain,white,Hostel 1,ring of three keys with red ribbon tag,97
 383,LOST,phone,Vivo V27,gold,Lecture Hall B,sticker of anime character on the back,192
-995,LOST,water bottle,Tupperware Sports Sipper,blue,Lecture Hall A,metal dent on base with silver cap,-1
+995,LOST,waterbottle,Tupperware Sports Sipper,blue,Lecture Hall A,metal dent on base with silver cap,-1
 8,FOUND,wallet,Woodland Men Brown Walet,white,Parking Lot,black leather slightly worn out at corners,4
-816,FOUND,phone,Realme 10 Pro,matte black,Main Gate Bus Stop,white ring holder attached on back case,-1
+816,FOUND,phone,Realme 10 Pro,matteblack,Main Gate Bus Stop,white ring holder attached on back case,-1
 237,LOST,wallet,Woodland Men Brown Wallet,blue,Sports Ground,contains college id card and some cash,119
 987,LOST,umbrella,Duck Handle Compact Umbrella,gold,Physics Lab,foldable with small tear on umbrella sleeve,-1
 300,FOUND,keys,Apartment Main Door Key Bunch,brown,Badminton Court,attached with blue marvel keychain,150
 818,LOST,watch,Apple Watch SE,brown,Main Canteen,rubber sports band with tiny scratch on glass,-1
 441,LOST,umbrella,Duck Handle Compact Umbrella,green,Nescafe Kiosk,wooden curved handle with wrist strap,221
-785,LOST,water bottle,Cello Stainless Steel Flask 750ml,white,Main Gate Bus Stop,black matte finish with college club sticker,-1
-10,FOUND,usb drive,SanDisk Ultra Dusl Drive 64GB,,Computer Lab,black casing with,5
-307,LOST,water bottle,Borosil Hydra Stainless Bottle,silver,Hostel 1,blue sipper cap with measurement markings,154
+785,LOST,waterbottle,Cello Stainless Steel Flask 750ml,white,Main Gate Bus Stop,black matte finish with college club sticker,-1
+10,FOUND,usbdrive,SanDisk Ultra Dusl Drive 64GB,,Computer Lab,black casing with,5
+307,LOST,waterbottle,Borosil Hydra Stainless Bottle,silver,Hostel 1,blue sipper cap with measurement markings,154
 489,LOST,book,Computer Networks Tanenbaum,red,Lecture Hall B,hardcover edition with brown paper cover,245
 774,FOUND,wallet,Hidesign Leather Purse,grey,Sports Ground,contains college id card and some cash,-1
 504,FOUND,book,Database System Concepts Silberschatz,black,Badminton Court,pencil notes written in margins,252
 945,LOST,laptop,Asus ZenBook 14,white,Main Canteen,sticker of GitHub octocat on top lid,-1
-705,FOUND,usb drive,HP Metal Pendrive 128GB,silver,Physics Lab,small red slider cap attached to metal key ring,-1
-9,LOST,usb drive,SanDisk Ultra Dual Drive 64GB,gold,Computer Lab,black casing with 32gb engraved on front,5
+705,FOUND,usbdrive,HP Metal Pendrive 128GB,silver,Physics Lab,small red slider cap attached to metal key ring,-1
+9,LOST,usbdrive,SanDisk Ultra Dual Drive 64GB,gold,Computer Lab,black casing with 32gb engraved on front,5
 548,FOUND,earphones,OnePlus Nord Buds,gold,Library,inside black pouch with charging cable,274
 481,LOST,earphones,Realme Buds Air 3,white,Lecture Hall B,white charging case with red silicone cover,241
-294,FOUND,water bottle,Tupperware Spozts Sipper,,Physics Lab,black matte finish,147
+294,FOUND,waterbottle,Tupperware Spozts Sipper,,Physics Lab,black matte finish,147
 353,LOST,book,Computer Networks Tanenbaum,green,Physics Lab,pencil notes written in margins,177
 140,FOUND,wallet,Tommy Hilfiger Bi-fold Wallet,grey,Hostel 1,brown bi-fold with,70
 869,FOUND,card,Library Access Card,brown,Sports Ground,in a plastic transparent badge holder with blue lanyard,-1
 777,FOUND,watch,Titan Fastrack Smartwatch,silver,Physics Lab,black strap with magnetic charger clip,-1
 835,FOUND,laptop,MacBook Pro 16,black,Hostel 2,sticker of GitHub octocat on top lid,-1
 536,FOUND,card,College Student ID Card,dark,Physics Lab,in a plastic transparent badge holder with blue lanyard,268
-1,LOST,water bottle,Milton Thermosteel Bottle 1L,black,Main Gate Bus Stop,black matte finish with college club sticker,1
+1,LOST,waterbottle,Milton Thermosteel Bottle 1L,black,Main Gate Bus Stop,black matte finish with college club sticker,1
 11,LOST,wallet,Wildhorn Leather Wallet,white,Computer Lab,black leather slightly worn out at corners,6
 311,LOST,bag,American Tourister Laptop Bag,brown,Lecture Hall A,blue college bag with water bottle in side mesh,156
 160,FOUND,book,Database System Concepts Silberschatz,grey,Hostel 1,hardcover edition with brown paper cover,80
 267,LOST,umbrella,Duck Handle Compact Umbrella,gold,Library,wooden curved handle with wrist strap,134
 423,LOST,laptop,MacBook Pro 16,green,Main Canteen,slight scratch near touchpad with black neoprene sleeve,212
 375,LOST,card,Library Access Card,silver,Parking Lot,in a plastic transparent badge holder with blue lanyard,188
-316,FOUND,earphones,Noise Buds VS102,matte black,Main Canteen,white charging case,158
+316,FOUND,earphones,Noise Buds VS102,matteblack,Main Canteen,white charging case,158
 453,LOST,card,College Student ID Card,silver,Main Canteen,"silver chip visible, signature on back",227
 92,FOUND,bag,Nike Sports Duffel Bag,green,Hostel 2,"torn near right strap, yellow reflector stripe",46
-825,FOUND,usb drive,SanDisk Cruzer Blade 32GB,blue,Nescafe Kiosk,black casing with 32gb engraved on front,-1
-233,LOST,water bottle,Milton Thermosteel Bottle 1L,brown,Hostel 1,black matte finish with college club sticker,117
+825,FOUND,usbdrive,SanDisk Cruzer Blade 32GB,blue,Nescafe Kiosk,black casing with 32gb engraved on front,-1
+233,LOST,waterbottle,Milton Thermosteel Bottle 1L,brown,Hostel 1,black matte finish with college club sticker,117
 990,LOST,earphones,OnePlus Nord Buds,red,Nescafe Kiosk,inside black pouch with charging cable,-1
-494,FOUND,card,Library Access Card,matte black,Main Gate Bus Stop,has passport size photo of student,247
+494,FOUND,card,Library Access Card,matteblack,Main Gate Bus Stop,has passport size photo of student,247
 356,FOUND,umbrella,Sun Brand Large Blakc Umbrella,grey,Hostel 2,"automatic push button handle, dark blue cloth",178
 931,FOUND,bag,Nike Sports Duffel Bag,green,Main Canteen,"torn near right strap, yellow reflector stripe",-1
 318,FOUND,book,Computer Networks Tanenbaum,grey,Parking Lot,pencil notes written in margins,159
@@ -980,10 +979,10 @@ id,type,category,name,color,location,description,pair_id
 537,LOST,watch,Casio Vintage Digital Watch,brown,Parking Lot,black strap with magnetic charger clip,269
 446,FOUND,wallet,Tommy Hilfiger Bi-fld Wallet,white,Library,brown bi-fold with photo inside transparent slot,223
 578,FOUND,card,College Student ID Card,gold,Physics Lab,has passport size photo of student,289
-899,LOST,usb drive,SanDisk Cruzer Blade 32GB,black,Badminton Court,small red slider cap attached to metal key ring,-1
+899,LOST,usbdrive,SanDisk Cruzer Blade 32GB,black,Badminton Court,small red slider cap attached to metal key ring,-1
 652,FOUND,keys,Hreo Splendor Bike Key,gold,Hostel 2,attached with blue marvel keychain,326
-767,LOST,usb drive,SanDisk Cruzer Blade 32GB,brown,Lecture Hall B,black casing with 32gb engraved on front,-1
-647,LOST,usb drive,SanDisk Cruzer Blade 32GB,black,Library,small red slider cap attached to metal key ring,324
+767,LOST,usbdrive,SanDisk Cruzer Blade 32GB,brown,Lecture Hall B,black casing with 32gb engraved on front,-1
+647,LOST,usbdrive,SanDisk Cruzer Blade 32GB,black,Library,small red slider cap attached to metal key ring,324
 468,FOUND,earphones,Sony Wh-1000XM4,dark,Main Gate Bus Stop,white charging case with red silicone cover,234
 612,FOUND,laptop,Deal XPS 13,white,Main Canteen,sticker of GitHub octocat on top lid,306
 606,FOUND,phone,iPhone 13 Pro,brown,Library,cracked screen with transparent back cover,303
@@ -992,7 +991,7 @@ id,type,category,name,color,location,description,pair_id
 715,FOUND,wallet,Wildhorn Leather Wallet,blue,Main Canteen,contains college id card and some cash,-1
 972,LOST,book,CLRS Introduction to Algorithms,gold,Sports Ground,hardcover edition with brown paper cover,-1
 139,LOST,wallet,Tommy Hilfiger Bi-fold Wallet,grey,Hostel 1,brown bi-fold with photo inside transparent slot,70
-456,FOUND,card,HDFC Credit Card,matte black,Sports Ground,in a plastic transparent badge holder with blue lanyard,228
+456,FOUND,card,HDFC Credit Card,matteblack,Sports Ground,in a plastic transparent badge holder with blue lanyard,228
 562,FOUND,book,Datbase System Concepts Silberschatz,red,Computer Lab,hardcover edition with,281
 279,LOST,laptop,Dell XPS 13,brown,Main Gate Bus Stop,contains college sticker and developer stickers,140
 958,LOST,keys,Car Key with Honda Logo,brown,Hostel 1,attached with blue marvel keychain,-1
@@ -1003,3 +1002,4 @@ id,type,category,name,color,location,description,pair_id
 1002,LOST,phone,Samsung S22,black,Mess,Transparent cover,-1
 1003,LOST,phone,Samsung S22,black,Mess,Transparent cover,-1
 1004,LOST,phone,Samsung S22,black,Mess,Transparent cover,-1
+1005,LOST,phone,Google Pixel 9,black,Sports Ground,brand new in box,-1

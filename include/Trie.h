@@ -45,12 +45,18 @@ private:
                    int maxDist, std::vector<FuzzyMatch>& results,
                    int& nodesVisited) const;
 
+    // Helper for recursive word & postings removal
+    bool removeHelper(TrieNode* current, const std::string& word, size_t depth, int itemId, bool& removed);
+
 public:
     Trie();
     ~Trie();
 
     // Insert word and record item ID in its postings list
     void insert(const std::string& word, int itemId);
+
+    // Remove item ID from postings of word (and prune node if empty)
+    void remove(const std::string& word, int itemId);
 
     // Exact word search returning the node (or nullptr if not found)
     TrieNode* searchExact(const std::string& word) const;

@@ -18,6 +18,9 @@ public:
     // Insert an item into the appropriate category bucket
     void insert(const ItemRecord* item);
 
+    // Remove an item from the category bucket (when claimed / returned)
+    void remove(int itemId, const std::string& category, ReportType type);
+
     // Retrieve all items of a given category and opposite type
     const std::vector<const ItemRecord*>& lookup(const std::string& category, ReportType type) const;
 

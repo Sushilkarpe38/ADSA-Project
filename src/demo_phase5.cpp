@@ -83,8 +83,104 @@ public:
         return true;
     }
 
+    bool saveAllToCSV() const {
+        std::ofstream csvOut(currentCsvPath);
+        if (!csvOut.is_open()) return false;
+
+        csvOut << "id,type,category,name,color,location,description,pair_id\n";
+        for (const auto& item : allItems) {
+            csvOut << item.toCSV() << "\n";
+        }
+        return true;
+    }
+
+    void claimAndResolve(int itemId) {
+        auto itLookup = itemLookup.find(itemId);
+        if (itLookup == itemLookup.end() || !itLookup->second) {
+            std::cout << "[!] Error: Item ID #" << itemId << " not found in database.\n";
+            return;
+        }
+
+        const ItemRecord* itm = itLookup->second;
+        ReportType resolvedType = itm->type;
+        std::string cat = itm->category;
+
+        // 1. Remove all words of the item from the Inverted Trie (M3)
+        Trie& targetTrie = (resolvedType == ReportType::FOUND) ? foundTrie : lostTrie;
+        for (const auto& w : itm->name_words) {
+            targetTrie.remove(w, itemId);
+        }
+        for (const auto& w : itm->description_words) {
+            targetTrie.remove(w, itemId);
+        }
+
+        // 2. Remove from Category Hash Map (M2)
+        categoryIndex.remove(itemId, cat, resolvedType);
+
+        // 3. Decrement counters
+        if (resolvedType == ReportType::FOUND) foundCount--;
+        else if (resolvedType == ReportType::LOST) lostCount--;
+
+        // 4. Remove from itemLookup hash table
+        itemLookup.erase(itemId);
+
+        // 5. Remove from allItems deque
+        for (auto it = allItems.begin(); it != allItems.end(); ++it) {
+            if (it->id == itemId) {
+                allItems.erase(it);
+                break;
+            }
+        }
+
+        // 6. Rewrite CSV to persist deletion on disk
+        saveAllToCSV();
+
+        std::cout << "\n---------------------------------------------------------------\n";
+        std::cout << "[+] SUCCESS: Item claimed & resolved!\n";
+        std::cout << "    Report ID #" << itemId << " (" << reportTypeToString(resolvedType)
+                  << ") has been removed from active inventory.\n";
+        std::cout << "    (Database now contains " << allItems.size() << " records: "
+                  << lostCount << " LOST, " << foundCount << " FOUND)\n";
+        std::cout << "---------------------------------------------------------------\n";
+    }
+
+    void registerNewReport(ItemRecord& query) {
+        allItems.push_back(query);
+        ItemRecord* storedItem = &allItems.back();
+        itemLookup[storedItem->id] = storedItem;
+        categoryIndex.insert(storedItem);
+
+        if (storedItem->type == ReportType::FOUND) {
+            foundCount++;
+            for (const auto& w : storedItem->name_words) foundTrie.insert(w, storedItem->id);
+            for (const auto& w : storedItem->description_words) foundTrie.insert(w, storedItem->id);
+        } else if (storedItem->type == ReportType::LOST) {
+            lostCount++;
+            for (const auto& w : storedItem->name_words) lostTrie.insert(w, storedItem->id);
+            for (const auto& w : storedItem->description_words) lostTrie.insert(w, storedItem->id);
+        }
+
+        std::ofstream csvOut(currentCsvPath, std::ios::app);
+        bool fileSaved = false;
+        if (csvOut.is_open()) {
+            csvOut << storedItem->toCSV() << "\n";
+            csvOut.close();
+            fileSaved = true;
+        }
+
+        std::cout << "\n---------------------------------------------------------------\n";
+        std::cout << "[+] Registered " << reportTypeToString(storedItem->type)
+                  << " item into database as Report ID #" << storedItem->id << "\n";
+        if (fileSaved) {
+            std::cout << "    [Persisted]: Saved permanently to " << currentCsvPath << "\n";
+        }
+        std::cout << "    (Database now contains " << allItems.size() << " records: "
+                  << lostCount << " LOST, " << foundCount << " FOUND)\n";
+        std::cout << "---------------------------------------------------------------\n";
+    }
+
     // Top-level matching driver with Max-Heap Top-K ranking (M6 & M7)
-    void executeSearchAndAdd(ItemRecord& query, int K = 10, double minScoreThreshold = 40.0) {
+    void executeSearchAndProcess(ItemRecord& query, int K = 10, double minScoreThreshold = 40.0) {
         normalizer.prepareItem(query);
 
         ReportType targetType = (query.type == ReportType::LOST) ? ReportType::FOUND : ReportType::LOST;
@@ -126,15 +222,10 @@ public:
         }
 
         // Step 3: Max-Heap Top-K Extraction (Module M6)
-        // - Build heap in O(m) using Floyd's algorithm
-        // - Extract Top-K in O(K log m) time
-        auto heapStart = std::chrono::high_resolution_clock::now();
         std::vector<ScoredCandidate> topKMatches = MaxHeap::extractTopK(scoredList, K, minScoreThreshold);
-        auto heapEnd = std::chrono::high_resolution_clock::now();
 
         auto end = std::chrono::high_resolution_clock::now();
         double totalLatencyUs = std::chrono::duration<double, std::micro>(end - start).count();
-        double heapLatencyUs = std::chrono::duration<double, std::micro>(heapEnd - heapStart).count();
 
         size_t bucketSize = categoryIndex.getCount(query.category, targetType);
 
@@ -147,7 +238,7 @@ public:
 
         if (topKMatches.empty()) {
             std::cout << "\nNo matching " << reportTypeToString(targetType)
-                      << " records found.\n";
+                      << " records found above threshold (" << minScoreThreshold << " pts).\n";
         } else {
             std::cout << "\n\n";
             std::cout << "  MATCHING " << reportTypeToString(targetType) << " ITEMS:\n";
@@ -171,41 +262,36 @@ public:
         }
 
         // -------------------------------------------------------------
-        // ADD REPORT TO DATABASE & SAVE TO DISK (CSV PERSISTENCE)
+        // INTERACTIVE RESOLUTION / REGISTRATION DECISION
         // -------------------------------------------------------------
-        allItems.push_back(query);
-        ItemRecord* storedItem = &allItems.back();
-        itemLookup[storedItem->id] = storedItem;
-        categoryIndex.insert(storedItem);
+        if (!topKMatches.empty()) {
+            std::cout << "\n---------------------------------------------------------------\n";
+            std::cout << "Was your matching item found in the list above?\n";
+            std::cout << "  [1 to " << topKMatches.size() << "] Enter number (1-" << topKMatches.size()
+                      << ") to CLAIM & REMOVE it from inventory\n";
+            std::cout << "  [0]      Not in list (Save my query as a new "
+                      << reportTypeToString(query.type) << " report)\n";
+            std::cout << "---------------------------------------------------------------\n";
+            std::cout << "Select option [0-" << topKMatches.size() << "]: ";
 
-        if (storedItem->type == ReportType::FOUND) {
-            foundCount++;
-            for (const auto& w : storedItem->name_words) foundTrie.insert(w, storedItem->id);
-            for (const auto& w : storedItem->description_words) foundTrie.insert(w, storedItem->id);
-        } else if (storedItem->type == ReportType::LOST) {
-            lostCount++;
-            for (const auto& w : storedItem->name_words) lostTrie.insert(w, storedItem->id);
-            for (const auto& w : storedItem->description_words) lostTrie.insert(w, storedItem->id);
+            std::string choiceStr;
+            std::getline(std::cin, choiceStr);
+            int choice = 0;
+            try {
+                if (!choiceStr.empty()) choice = std::stoi(choiceStr);
+            } catch (...) {
+                choice = 0;
+            }
+
+            if (choice >= 1 && choice <= static_cast<int>(topKMatches.size())) {
+                int matchedItemId = topKMatches[choice - 1].candidate.item->id;
+                claimAndResolve(matchedItemId);
+                return;
+            }
         }
 
-        // Persist to CSV file
-        std::ofstream csvOut(currentCsvPath, std::ios::app);
-        bool fileSaved = false;
-        if (csvOut.is_open()) {
-            csvOut << storedItem->toCSV() << "\n";
-            csvOut.close();
-            fileSaved = true;
-        }
-
-        std::cout << "\n---------------------------------------------------------------\n";
-        std::cout << "[+] Registered " << reportTypeToString(storedItem->type)
-                  << " item into database as Report ID #" << storedItem->id << "\n";
-        if (fileSaved) {
-            std::cout << "    [Persisted]: Saved permanently to " << currentCsvPath << "\n";
-        }
-        std::cout << "    (Database now contains " << allItems.size() << " records: "
-                  << lostCount << " LOST, " << foundCount << " FOUND)\n";
-        std::cout << "---------------------------------------------------------------\n";
+        // If not in list or choice == 0, register the query into the database
+        registerNewReport(query);
     }
 
     void handleInput(ReportType type) {
@@ -238,7 +324,7 @@ public:
             return;
         }
 
-        executeSearchAndAdd(query, 10, 40.0);
+        executeSearchAndProcess(query, 10, 40.0);
     }
 
     void printStats() const {

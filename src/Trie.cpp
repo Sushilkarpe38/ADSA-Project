@@ -34,6 +34,49 @@ void Trie::insert(const std::string& word, int itemId) {
     }
 }
 
+bool Trie::removeHelper(TrieNode* current, const std::string& word, size_t depth, int itemId, bool& removed) {
+    if (!current) return false;
+
+    if (depth == word.length()) {
+        if (current->isEnd) {
+            auto it = std::find(current->postings.begin(), current->postings.end(), itemId);
+            if (it != current->postings.end()) {
+                current->postings.erase(it);
+                removed = true;
+            }
+            if (current->postings.empty()) {
+                current->isEnd = false;
+                if (uniqueWordCount > 0) uniqueWordCount--;
+            }
+        }
+        // Node can be pruned if it has no children and is not an end of another word
+        return current->children.empty() && !current->isEnd;
+    }
+
+    char c = word[depth];
+    auto childIt = current->children.find(c);
+    if (childIt == current->children.end()) {
+        return false;
+    }
+
+    bool shouldDeleteChild = removeHelper(childIt->second, word, depth + 1, itemId, removed);
+
+    if (shouldDeleteChild) {
+        delete childIt->second;
+        current->children.erase(childIt);
+        if (totalNodeCount > 1) totalNodeCount--;
+        return current->children.empty() && !current->isEnd;
+    }
+
+    return false;
+}
+
+void Trie::remove(const std::string& word, int itemId) {
+    if (word.empty()) return;
+    bool removed = false;
+    removeHelper(root, word, 0, itemId, removed);
+}
+
 TrieNode* Trie::searchExact(const std::string& word) const {
     if (word.empty()) return nullptr;
 
