@@ -1,0 +1,41 @@
+mobile,phone
+cellphone,phone
+smartphone,phone
+cell,phone
+handset,phone
+earphones,earbuds
+headphones,earbuds
+airpods,earbuds
+headset,earbuds
+laptop,notebook
+macbook,laptop
+bag,backpack
+rucksack,backpack
+knapsack,backpack
+purse,wallet
+billfold,wallet
+moneybag,wallet
+keys,key
+keychain,key
+spectacles,glasses
+specs,glasses
+sunglasses,glasses
+pendrive,usb
+flashdrive,usb
+thumbdrive,usb
+bottle,water bottle
+flask,water bottle
+sipper,water bottle
+brolly,umbrella
+parasol,umbrella
+idcard,card
+id,card
+pass,card
+watch,smartwatch
+timepiece,smartwatch
+grey,gray
+dark,black
+navy,blue
+crimson,red
+maroon,red
+scarlet,red
