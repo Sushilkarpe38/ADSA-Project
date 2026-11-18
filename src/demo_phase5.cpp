@@ -8,20 +8,21 @@
 #include <iostream>
 #include <iomanip>
 #include <vector>
-#include <deque>
+#include <list>
 #include <string>
 #include <algorithm>
-#include <chrono>
+
 #include <fstream>
 
-class ReFindApp {
+class ReFindApp
+{
 private:
     Normalizer normalizer;
     CategoryIndex categoryIndex;
-    Trie foundTrie;   // Inverted index for FOUND items
-    Trie lostTrie;    // Inverted index for LOST items
-    std::deque<ItemRecord> allItems; // deque preserves pointer stability on push_back
-    std::unordered_map<int, const ItemRecord*> itemLookup;
+    Trie foundTrie;                 // Inverted index for FOUND items
+    Trie lostTrie;                  // Inverted index for LOST items
+    std::list<ItemRecord> allItems; // doubly-linked list preserves pointer stability on push_back
+    std::unordered_map<int, const ItemRecord *> itemLookup;
     int foundCount;
     int lostCount;
     int nextId;
@@ -30,12 +31,15 @@ private:
 public:
     ReFindApp() : foundCount(0), lostCount(0), nextId(1) {}
 
-    bool initialize(const std::string& csvPath = "") {
+    bool initialize(const std::string &csvPath = "")
+    {
         std::string prefix = "";
         std::ifstream testRoot("data/reports_1k.csv");
-        if (!testRoot.is_open()) {
+        if (!testRoot.is_open())
+        {
             std::ifstream testSrc("../data/reports_1k.csv");
-            if (testSrc.is_open()) {
+            if (testSrc.is_open())
+            {
                 prefix = "../";
             }
         }
@@ -45,7 +49,8 @@ public:
 
         currentCsvPath = csvPath.empty() ? (prefix + "data/reports_1k.csv") : csvPath;
         std::vector<ItemRecord> loaded = ItemRecord::loadFromCSV(currentCsvPath);
-        if (loaded.empty()) {
+        if (loaded.empty())
+        {
             return false;
         }
 
@@ -58,59 +63,92 @@ public:
         lostCount = 0;
         nextId = 1;
 
-        for (auto& item : loaded) {
+        for (auto &item : loaded)
+        {
             normalizer.prepareItem(item);
             allItems.push_back(item);
-            if (item.id >= nextId) {
+            if (item.id >= nextId)
+            {
                 nextId = item.id + 1;
             }
         }
 
-        for (auto& item : allItems) {
+        for (auto &item : allItems)
+        {
             itemLookup[item.id] = &item;
             categoryIndex.insert(&item);
 
-            if (item.type == ReportType::FOUND) {
+            if (item.type == ReportType::FOUND)
+            {
                 foundCount++;
-                for (const auto& w : item.name_words) foundTrie.insert(w, item.id);
-                for (const auto& w : item.description_words) foundTrie.insert(w, item.id);
-            } else if (item.type == ReportType::LOST) {
+                for (const auto &w : item.name_words)
+                    foundTrie.insert(w, item.id);
+                for (const auto &w : item.description_words)
+                    foundTrie.insert(w, item.id);
+                for (const auto &w : item.color_words)
+                    foundTrie.insert(w, item.id);
+                for (const auto &w : item.location_words)
+                    foundTrie.insert(w, item.id);
+            }
+            else if (item.type == ReportType::LOST)
+            {
                 lostCount++;
-                for (const auto& w : item.name_words) lostTrie.insert(w, item.id);
-                for (const auto& w : item.description_words) lostTrie.insert(w, item.id);
+                for (const auto &w : item.name_words)
+                    lostTrie.insert(w, item.id);
+                for (const auto &w : item.description_words)
+                    lostTrie.insert(w, item.id);
+                for (const auto &w : item.color_words)
+                    lostTrie.insert(w, item.id);
+                for (const auto &w : item.location_words)
+                    lostTrie.insert(w, item.id);
             }
         }
         return true;
     }
 
-    bool saveAllToCSV() const {
+    bool saveAllToCSV() const
+    {
         std::ofstream csvOut(currentCsvPath);
-        if (!csvOut.is_open()) return false;
+        if (!csvOut.is_open())
+            return false;
 
         csvOut << "id,type,category,name,color,location,description,pair_id\n";
-        for (const auto& item : allItems) {
+        for (const auto &item : allItems)
+        {
             csvOut << item.toCSV() << "\n";
         }
         return true;
     }
 
-    void claimAndResolve(int itemId) {
+    void claimAndResolve(int itemId)
+    {
         auto itLookup = itemLookup.find(itemId);
-        if (itLookup == itemLookup.end() || !itLookup->second) {
+        if (itLookup == itemLookup.end() || !itLookup->second)
+        {
             std::cout << "[!] Error: Item ID #" << itemId << " not found in database.\n";
             return;
         }
 
-        const ItemRecord* itm = itLookup->second;
+        const ItemRecord *itm = itLookup->second;
         ReportType resolvedType = itm->type;
         std::string cat = itm->category;
 
         // 1. Remove all words of the item from the Inverted Trie (M3)
-        Trie& targetTrie = (resolvedType == ReportType::FOUND) ? foundTrie : lostTrie;
-        for (const auto& w : itm->name_words) {
+        Trie &targetTrie = (resolvedType == ReportType::FOUND) ? foundTrie : lostTrie;
+        for (const auto &w : itm->name_words)
+        {
             targetTrie.remove(w, itemId);
         }
-        for (const auto& w : itm->description_words) {
+        for (const auto &w : itm->description_words)
+        {
+            targetTrie.remove(w, itemId);
+        }
+        for (const auto &w : itm->color_words)
+        {
+            targetTrie.remove(w, itemId);
+        }
+        for (const auto &w : itm->location_words)
+        {
             targetTrie.remove(w, itemId);
         }
 
@@ -118,15 +156,19 @@ public:
         categoryIndex.remove(itemId, cat, resolvedType);
 
         // 3. Decrement counters
-        if (resolvedType == ReportType::FOUND) foundCount--;
-        else if (resolvedType == ReportType::LOST) lostCount--;
+        if (resolvedType == ReportType::FOUND)
+            foundCount--;
+        else if (resolvedType == ReportType::LOST)
+            lostCount--;
 
         // 4. Remove from itemLookup hash table
         itemLookup.erase(itemId);
 
-        // 5. Remove from allItems deque
-        for (auto it = allItems.begin(); it != allItems.end(); ++it) {
-            if (it->id == itemId) {
+        // 5. Remove from allItems linked list
+        for (auto it = allItems.begin(); it != allItems.end(); ++it)
+        {
+            if (it->id == itemId)
+            {
                 allItems.erase(it);
                 break;
             }
@@ -144,25 +186,42 @@ public:
         std::cout << "---------------------------------------------------------------\n";
     }
 
-    void registerNewReport(ItemRecord& query) {
+    void registerNewReport(ItemRecord &query)
+    {
         allItems.push_back(query);
-        ItemRecord* storedItem = &allItems.back();
+        ItemRecord *storedItem = &allItems.back();
         itemLookup[storedItem->id] = storedItem;
         categoryIndex.insert(storedItem);
 
-        if (storedItem->type == ReportType::FOUND) {
+        if (storedItem->type == ReportType::FOUND)
+        {
             foundCount++;
-            for (const auto& w : storedItem->name_words) foundTrie.insert(w, storedItem->id);
-            for (const auto& w : storedItem->description_words) foundTrie.insert(w, storedItem->id);
-        } else if (storedItem->type == ReportType::LOST) {
+            for (const auto &w : storedItem->name_words)
+                foundTrie.insert(w, storedItem->id);
+            for (const auto &w : storedItem->description_words)
+                foundTrie.insert(w, storedItem->id);
+            for (const auto &w : storedItem->color_words)
+                foundTrie.insert(w, storedItem->id);
+            for (const auto &w : storedItem->location_words)
+                foundTrie.insert(w, storedItem->id);
+        }
+        else if (storedItem->type == ReportType::LOST)
+        {
             lostCount++;
-            for (const auto& w : storedItem->name_words) lostTrie.insert(w, storedItem->id);
-            for (const auto& w : storedItem->description_words) lostTrie.insert(w, storedItem->id);
+            for (const auto &w : storedItem->name_words)
+                lostTrie.insert(w, storedItem->id);
+            for (const auto &w : storedItem->description_words)
+                lostTrie.insert(w, storedItem->id);
+            for (const auto &w : storedItem->color_words)
+                lostTrie.insert(w, storedItem->id);
+            for (const auto &w : storedItem->location_words)
+                lostTrie.insert(w, storedItem->id);
         }
 
         std::ofstream csvOut(currentCsvPath, std::ios::app);
         bool fileSaved = false;
-        if (csvOut.is_open()) {
+        if (csvOut.is_open())
+        {
             csvOut << storedItem->toCSV() << "\n";
             csvOut.close();
             fileSaved = true;
@@ -171,7 +230,8 @@ public:
         std::cout << "\n---------------------------------------------------------------\n";
         std::cout << "[+] Registered " << reportTypeToString(storedItem->type)
                   << " item into database as Report ID #" << storedItem->id << "\n";
-        if (fileSaved) {
+        if (fileSaved)
+        {
             std::cout << "    [Persisted]: Saved permanently to " << currentCsvPath << "\n";
         }
         std::cout << "    (Database now contains " << allItems.size() << " records: "
@@ -180,11 +240,12 @@ public:
     }
 
     // Top-level matching driver with Max-Heap Top-K ranking (M6 & M7)
-    void executeSearchAndProcess(ItemRecord& query, int K = 10, double minScoreThreshold = 40.0) {
+    void executeSearchAndProcess(ItemRecord &query, int K = 10, double minScoreThreshold = 40.0)
+    {
         normalizer.prepareItem(query);
 
         ReportType targetType = (query.type == ReportType::LOST) ? ReportType::FOUND : ReportType::LOST;
-        const Trie& targetTrie = (query.type == ReportType::LOST) ? foundTrie : lostTrie;
+        const Trie &targetTrie = (query.type == ReportType::LOST) ? foundTrie : lostTrie;
         int targetTotalCount = (query.type == ReportType::LOST) ? foundCount : lostCount;
 
         std::cout << "\n\n";
@@ -199,24 +260,34 @@ public:
         std::cout << "  Description: \"" << query.description << "\"\n";
 
         std::cout << "\nNORMALIZED TOKENS:\n";
-        std::cout << "  Name Words: [ ";
-        for (const auto& w : query.name_words) std::cout << "\"" << w << "\" ";
+        std::cout << "  Name Words:     [ ";
+        for (const auto &w : query.name_words)
+            std::cout << "\"" << w << "\" ";
         std::cout << "]\n";
-        std::cout << "  Description Words: [ ";
-        for (const auto& w : query.description_words) std::cout << "\"" << w << "\" ";
+        std::cout << "  Color Words:    [ ";
+        for (const auto &w : query.color_words)
+            std::cout << "\"" << w << "\" ";
+        std::cout << "]\n";
+        std::cout << "  Location Words: [ ";
+        for (const auto &w : query.location_words)
+            std::cout << "\"" << w << "\" ";
+        std::cout << "]\n";
+        std::cout << "  Desc Words:     [ ";
+        for (const auto &w : query.description_words)
+            std::cout << "\"" << w << "\" ";
         std::cout << "]\n";
 
         // Step 1: Candidate Generation (Module M4)
         CandidateGenerator candidateGen(categoryIndex, targetTrie, itemLookup);
         Scorer scorer(targetTrie, targetTotalCount);
 
-        auto start = std::chrono::high_resolution_clock::now();
         auto candidates = candidateGen.generateCandidates(query);
 
         // Step 2: Score Survivors (Module M5)
         std::vector<ScoredCandidate> scoredList;
         scoredList.reserve(candidates.size());
-        for (const auto& pair : candidates) {
+        for (const auto &pair : candidates)
+        {
             ScoreBreakdown sb = scorer.computeScore(query, pair.second);
             scoredList.emplace_back(sb.totalScore, pair.second, sb);
         }
@@ -233,20 +304,22 @@ public:
         std::cout << "  Total Records in Database: " << allItems.size() << "\n";
         std::cout << "  Category Bucket Size:      " << bucketSize << "\n";
         std::cout << "  Candidates Scored:         " << candidates.size() << "\n";
-        std::cout << "  Search Time:               " << std::fixed << std::setprecision(2) << totalLatencyUs << " microseconds ("
-                  << (totalLatencyUs / 1000.0) << " ms)\n";
 
-        if (topKMatches.empty()) {
+        if (topKMatches.empty())
+        {
             std::cout << "\nNo matching " << reportTypeToString(targetType)
                       << " records found above threshold (" << minScoreThreshold << " pts).\n";
-        } else {
+        }
+        else
+        {
             std::cout << "\n\n";
             std::cout << "  MATCHING " << reportTypeToString(targetType) << " ITEMS:\n";
             std::cout << "\n";
 
-            for (size_t i = 0; i < topKMatches.size(); ++i) {
-                const auto& item = topKMatches[i];
-                const ItemRecord* rec = item.candidate.item;
+            for (size_t i = 0; i < topKMatches.size(); ++i)
+            {
+                const auto &item = topKMatches[i];
+                const ItemRecord *rec = item.candidate.item;
 
                 std::cout << "\n[" << (i + 1) << "] ID: " << rec->id
                           << " | " << reportTypeToString(rec->type)
@@ -264,7 +337,8 @@ public:
         // -------------------------------------------------------------
         // INTERACTIVE RESOLUTION / REGISTRATION DECISION
         // -------------------------------------------------------------
-        if (!topKMatches.empty()) {
+        if (!topKMatches.empty())
+        {
             std::cout << "\n---------------------------------------------------------------\n";
             std::cout << "Was your matching item found in the list above?\n";
             std::cout << "  [1 to " << topKMatches.size() << "] Enter number (1-" << topKMatches.size()
@@ -277,13 +351,18 @@ public:
             std::string choiceStr;
             std::getline(std::cin, choiceStr);
             int choice = 0;
-            try {
-                if (!choiceStr.empty()) choice = std::stoi(choiceStr);
-            } catch (...) {
+            try
+            {
+                if (!choiceStr.empty())
+                    choice = std::stoi(choiceStr);
+            }
+            catch (...)
+            {
                 choice = 0;
             }
 
-            if (choice >= 1 && choice <= static_cast<int>(topKMatches.size())) {
+            if (choice >= 1 && choice <= static_cast<int>(topKMatches.size()))
+            {
                 int matchedItemId = topKMatches[choice - 1].candidate.item->id;
                 claimAndResolve(matchedItemId);
                 return;
@@ -294,7 +373,8 @@ public:
         registerNewReport(query);
     }
 
-    void handleInput(ReportType type) {
+    void handleInput(ReportType type)
+    {
         ItemRecord query;
         query.id = nextId++;
         query.type = type;
@@ -319,7 +399,8 @@ public:
         std::cout << "5. Description (optional, press Enter to skip):\n   > ";
         std::getline(std::cin, query.description);
 
-        if (query.category.empty() && query.name.empty()) {
+        if (query.category.empty() && query.name.empty())
+        {
             std::cout << "[!] Please enter at least a category or name.\n";
             return;
         }
@@ -327,25 +408,29 @@ public:
         executeSearchAndProcess(query, 10, 40.0);
     }
 
-    void printStats() const {
+    void printStats() const
+    {
         std::cout << "Database loaded: " << allItems.size() << " total records ("
                   << lostCount << " LOST, " << foundCount << " FOUND)\n";
     }
 };
 
-int main() {
+int main()
+{
     std::cout << "-----------------------------\n";
     std::cout << "ReFind: Lost & Found Matching\n";
     std::cout << "-----------------------------\n";
 
     ReFindApp app;
-    if (!app.initialize()) {
+    if (!app.initialize())
+    {
         std::cerr << "[!] Error loading dataset from data/reports_1k.csv\n";
         return 1;
     }
     app.printStats();
 
-    while (true) {
+    while (true)
+    {
         std::cout << "\nSelect Operation : \n";
         std::cout << "  [1] Search a LOST Item  (Finds & Ranks matching Found items)\n";
         std::cout << "  [2] Search a FOUND Item (Finds & Ranks matching Lost items)\n";
@@ -354,16 +439,24 @@ int main() {
         std::cout << "Select option [0-2]: ";
 
         std::string choice;
-        if (!std::getline(std::cin, choice)) break;
+        if (!std::getline(std::cin, choice))
+            break;
 
-        if (choice == "1") {
+        if (choice == "1")
+        {
             app.handleInput(ReportType::LOST);
-        } else if (choice == "2") {
+        }
+        else if (choice == "2")
+        {
             app.handleInput(ReportType::FOUND);
-        } else if (choice == "0") {
+        }
+        else if (choice == "0")
+        {
             std::cout << "\nExiting application.\n";
             break;
-        } else {
+        }
+        else
+        {
             std::cout << "Invalid choice. Please enter 1, 2, or 0.\n";
         }
     }

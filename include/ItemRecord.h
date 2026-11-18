@@ -38,6 +38,8 @@ struct ItemRecord {
     // Tokenized and normalized words (populated by M1 Normalizer)
     std::vector<std::string> name_words;
     std::vector<std::string> description_words;
+    std::vector<std::string> color_words;
+    std::vector<std::string> location_words;
 
     ItemRecord() : id(-1), type(ReportType::UNKNOWN), pair_id(-1) {}
 

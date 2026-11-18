@@ -7,7 +7,7 @@
 #include <iostream>
 #include <iomanip>
 #include <vector>
-#include <deque>
+#include <list>
 #include <string>
 #include <algorithm>
 #include <chrono>
@@ -19,7 +19,7 @@ private:
     CategoryIndex categoryIndex;
     Trie foundTrie;   // Inverted index for FOUND items
     Trie lostTrie;    // Inverted index for LOST items
-    std::deque<ItemRecord> allItems; // deque preserves pointer stability on push_back
+    std::list<ItemRecord> allItems; // doubly-linked list preserves pointer stability on push_back
     std::unordered_map<int, const ItemRecord*> itemLookup;
     int foundCount;
     int lostCount;

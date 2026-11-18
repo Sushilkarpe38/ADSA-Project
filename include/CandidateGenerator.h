@@ -15,6 +15,8 @@ struct CandidateMatch {
     // Map of query word -> best edit distance (0 for exact, 1 or 2 for typo)
     std::unordered_map<std::string, int> matchedNameWords;
     std::unordered_map<std::string, int> matchedDescWords;
+    std::unordered_map<std::string, int> matchedColorWords;
+    std::unordered_map<std::string, int> matchedLocationWords;
 
     CandidateMatch() : item(nullptr) {}
     explicit CandidateMatch(const ItemRecord* itm) : item(itm) {}

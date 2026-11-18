@@ -84,18 +84,20 @@ ScoreBreakdown Scorer::computeScore(const ItemRecord& query, const CandidateMatc
                                               &breakdown.explanations, "Name");
     breakdown.nameScore = 25.0 * nameOverlap;
 
-    // 3. Color Score (15 pts)
-    if (!query.color.empty() && !target.color.empty() && query.color == target.color) {
-        breakdown.colorScore = 15.0;
-        breakdown.explanations.push_back("Exact color match: '" + query.color + "' (+15.0 pts)");
+    // 3. Color Score (15 pts) — IDF word overlap (fuzzy/partial match)
+    double colorOverlap = calculateWordOverlap(query.color_words, candidate.matchedColorWords,
+                                               nullptr, "Color");
+    if (!query.color_words.empty()) {
+        breakdown.colorScore = 15.0 * colorOverlap;
     } else {
         breakdown.colorScore = 0.0;
     }
 
-    // 4. Location Score (15 pts)
-    if (!query.location.empty() && !target.location.empty() && query.location == target.location) {
-        breakdown.locationScore = 15.0;
-        breakdown.explanations.push_back("Exact location match: '" + query.location + "' (+15.0 pts)");
+    // 4. Location Score (15 pts) — IDF word overlap (fuzzy/partial match)
+    double locationOverlap = calculateWordOverlap(query.location_words, candidate.matchedLocationWords,
+                                                  nullptr, "Location");
+    if (!query.location_words.empty()) {
+        breakdown.locationScore = 15.0 * locationOverlap;
     } else {
         breakdown.locationScore = 0.0;
     }

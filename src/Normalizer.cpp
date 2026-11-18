@@ -98,12 +98,16 @@ void Normalizer::prepareItem(ItemRecord& item) const {
     // Normalize category (single word lowercase)
     item.category = cleanToken(item.category);
 
-    // Normalize color
-    item.color = cleanToken(item.color);
-
     // Normalize name into name_words
     item.name_words = tokenizeAndNormalize(item.name);
 
     // Normalize description into description_words
     item.description_words = tokenizeAndNormalize(item.description);
+
+    // Tokenize color and location for fuzzy/partial Trie matching
+    item.color_words    = tokenizeAndNormalize(item.color);
+    item.location_words = tokenizeAndNormalize(item.location);
+
+    // Keep raw color as the first token (for display) or leave as-is
+    // The raw strings item.color / item.location are still kept for display
 }
