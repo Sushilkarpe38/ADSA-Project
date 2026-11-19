@@ -2,6 +2,27 @@
 #include <iostream>
 #include <iomanip>
 #include <sstream>
+#include <set>
+#include <algorithm>
+#include <cctype>
+
+static bool isColorModifier(const std::string &w)
+{
+    static const std::set<std::string> mods = {"light", "dark", "deep", "pale", "bright", "matte", "dull"};
+    return mods.count(w) > 0;
+}
+static bool isGenericLocationWord(const std::string &w)
+{
+    static const std::set<std::string> gen = {"main", "near", "behind", "outside", "beside", "opposite", "at"};
+    return gen.count(w) > 0;
+}
+static std::string joinWords(const std::vector<std::string> &v)
+{
+    std::string r;
+    for (const auto &w : v)
+        r += w;
+    return r;
+}
 
 void ScoreBreakdown::printSummary() const {
     std::cout << "  --------------------------------------------------\n";
@@ -84,22 +105,50 @@ ScoreBreakdown Scorer::computeScore(const ItemRecord& query, const CandidateMatc
                                               &breakdown.explanations, "Name");
     breakdown.nameScore = 25.0 * nameOverlap;
 
-    // 3. Color Score (15 pts) — IDF word overlap (fuzzy/partial match)
-    double colorOverlap = calculateWordOverlap(query.color_words, candidate.matchedColorWords,
-                                               nullptr, "Color");
-    if (!query.color_words.empty()) {
-        breakdown.colorScore = 15.0 * colorOverlap;
-    } else {
-        breakdown.colorScore = 0.0;
+    // 3. Color Score (15 pts): base colour decides, modifier only fine-tunes
+    breakdown.colorScore = 0.0;
+    if (!query.color_words.empty())
+    {
+        std::string targetColor = joinWords(target.color_words); // e.g. "matteblack"
+        bool baseHit = false, hasModifier = false, modifierHit = false;
+        for (const auto &w : query.color_words)
+        {
+            if (isColorModifier(w))
+            {
+                hasModifier = true;
+                if (targetColor.find(w) != std::string::npos)
+                    modifierHit = true;
+            }
+            else if (targetColor.find(w) != std::string::npos)
+            {
+                baseHit = true;
+            }
+        }
+        if (baseHit)
+        {
+            breakdown.colorScore = (!hasModifier || modifierHit) ? 15.0 : 12.0;
+            breakdown.explanations.push_back("Color match: '" + query.color + "' ~ '" + target.color + "'");
+        }
     }
 
-    // 4. Location Score (15 pts) — IDF word overlap (fuzzy/partial match)
-    double locationOverlap = calculateWordOverlap(query.location_words, candidate.matchedLocationWords,
-                                                  nullptr, "Location");
-    if (!query.location_words.empty()) {
-        breakdown.locationScore = 15.0 * locationOverlap;
-    } else {
-        breakdown.locationScore = 0.0;
+    // 4. Location Score (15 pts): share of query location words found in target location
+    breakdown.locationScore = 0.0;
+    {
+        int total = 0, hits = 0;
+        for (const auto &w : query.location_words)
+        {
+            if (isGenericLocationWord(w))
+                continue;
+            total++;
+            if (std::find(target.location_words.begin(), target.location_words.end(), w) != target.location_words.end())
+                hits++;
+        }
+        if (total > 0)
+        {
+            breakdown.locationScore = 15.0 * hits / total;
+            if (hits > 0)
+                breakdown.explanations.push_back("Location match: '" + query.location + "' ~ '" + target.location + "'");
+        }
     }
 
     // 5. Description Score (15 pts max)

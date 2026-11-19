@@ -34,8 +34,4 @@ pass,card
 watch,smartwatch
 timepiece,smartwatch
 grey,gray
-dark,black
-navy,blue
-crimson,red
-maroon,red
 scarlet,red

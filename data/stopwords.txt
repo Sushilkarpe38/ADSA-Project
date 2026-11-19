@@ -129,3 +129,8 @@ help
 item
 someone
 anyone
+near
+behind
+outside
+beside
+opposite

@@ -11,6 +11,7 @@
 #include <list>
 #include <string>
 #include <algorithm>
+#include <chrono>
 
 #include <fstream>
 
@@ -242,6 +243,7 @@ public:
     // Top-level matching driver with Max-Heap Top-K ranking (M6 & M7)
     void executeSearchAndProcess(ItemRecord &query, int K = 10, double minScoreThreshold = 40.0)
     {
+        auto start = std::chrono::high_resolution_clock::now();
         normalizer.prepareItem(query);
 
         ReportType targetType = (query.type == ReportType::LOST) ? ReportType::FOUND : ReportType::LOST;
